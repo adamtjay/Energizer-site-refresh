@@ -1262,8 +1262,9 @@ body {
   body * a {
     outline: none !important; }
   /* line 13, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_global.scss */
-  body.background-red {
-    background: white url('../images/bg_lg_red-main.jpg') no-repeat top center; }
+ body.background-red {
+   /* background: white url('../images/bg_lg_red-main.jpg') no-repeat top center; } */
+	 background: white !important; } 
     @media (max-width: 530px) {
       body.background-red, body.background-green {
         background-position: center -80px; } }
@@ -3804,7 +3805,8 @@ body {
     outline: none !important; }
   /* line 13, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_global.scss */
   body.background-red {
-    background: white url('../images/bg_lg_red-main.jpg') no-repeat top center; }
+  /*  background: white url('../images/bg_lg_red-main.jpg') no-repeat top center; } */
+      background-color: white !important; }
     @media (max-width: 530px) {
       body.background-red , body.background-green{
         background-position: center -80px; } }
@@ -4402,7 +4404,8 @@ a.meanmenu-reveal {
 
 /* line 98, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
 .main-header {
-  background: rgba(32, 32, 32, 0.6);
+  /* background: rgba(32, 32, 32, 1.0);*/
+  background: #202020 !important;
   width: 100%;
   height: 92px;
   -webkit-transition: background 0.3s ease;
@@ -4412,11 +4415,14 @@ a.meanmenu-reveal {
     background: #202020; }
   @media (max-width: 530px) {
     .main-header {
-      background: transparent;
+     /* background: transparent;*/
+	 background: #202020;
       margin: 20px 0; }
       /* line 110, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
       .main-header:hover {
-        background: transparent; } }
+        /*background: transparent; */
+		background: #202020;
+		} }
   /* line 114, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
   .main-header .container {
     height: 100%;
