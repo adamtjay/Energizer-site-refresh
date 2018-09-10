@@ -1,0 +1,64 @@
+    .box-gray + .col_1_2{
+        padding-left: 0 !important;
+    }
+
+    .box-gray {
+        background: #ebebeb;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin: 30px 0;
+    }
+
+    .box-gray.nomargin {
+       margin-top: 0;
+    }
+
+    .box-gray.nomargin h3 {
+        margin-top: 5px;
+        padding-top: 0;
+    }
+
+    .box-gray.-inline {
+        display: inline-block;
+    }
+
+    .box-gray.-daylight-box {
+        max-width: 100%;
+        float: right;
+        margin: 2px 10px;
+        width: 300px;
+        position: relative;
+    }
+
+    .box-gray.-daylight-box:after {
+        content: '';
+        background-image: url(../images/change-your-clock-bunny.png);
+        width: 111px;
+        height: 74px;
+        position: absolute;
+        top: -13px;
+        right: -13px;
+    }
+
+    .box-gray.-daylight-box h4 {
+        width: 70%;
+        font-size: 15px !important;
+        margin-top: 10px;
+        line-height: 1.2em;
+    }
+
+    .box-gray.-daylight-box p {
+        font-size: 10px !important;
+    }
+
+    .box-gray.-daylight-box span {
+        font-size: 15px !important;
+        font-weight: bold;
+    }
+
+    @media screen and (max-width: 700px) {
+        .box-gray.-daylight-box {
+            margin: 0 0 20px;
+            width: 100%;
+        }
+    }

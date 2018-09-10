@@ -1,0 +1,23 @@
+.main-header .nav-contain .lighting .headlight-new{
+	margin-top: 120px;
+	font-weight:bold;
+	position: relative;
+}
+.main-header .nav-contain .lighting .headlight-new a:after{
+	content: '';
+	display: inline-block;
+	width: 155px;
+	height: 54px;
+	position: absolute;
+	bottom: -80px;
+	left: 0;
+	background: url(../images/headlight.png) no-repeat;
+}
+.main-header .nav-contain .lighting .headlight-new a{
+		font-size: 14px !important;
+		font-weight: bold !important;
+}
+.main-header .nav-contain .subnav .flashlight{
+	left: -67px !important;
+}
+.lighting-product a{z-index:50 !important;}

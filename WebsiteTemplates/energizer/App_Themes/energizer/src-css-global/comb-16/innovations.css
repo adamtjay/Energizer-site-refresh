@@ -1,0 +1,1273 @@
+/**
+ ** INNOVATIONS
+ **/
+@media (max-width: 530px) {
+  .col_1_4, .col_1_3, .col_2_3, .col_3_4 {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.margin-col_1_4 {
+  width: 98%;
+  margin: 0 auto 1%;
+  margin-left: auto;
+}
+.margin-col_1_4.inner {
+  margin-left: auto;
+}
+@media screen and (min-width: 600px) {
+  .margin-col_1_4 {
+    width: 49.5%;
+    display: block;
+    float: left;
+  }
+  .margin-col_1_4:nth-of-type(2n+2) {
+    margin-left: .6666%;
+    margin-bottom: .6666%;
+  }
+  .margin-col_1_4:nth-of-type(2n+2).inner {
+    margin-left: .6666%;
+  }
+  .margin-col_1_4:nth-of-type(2n+1) {
+    margin-left: 0%;
+    margin-bottom: .6666%;
+  }
+  .margin-col_1_4:nth-of-type(2n+1).inner {
+    margin-left: 0%;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .margin-col_1_4 {
+    width: 24.5%;
+  }
+  .margin-col_1_4:nth-of-type(2n+2) {
+    margin-left: .6666%;
+    margin-bottom: 0;
+  }
+  .margin-col_1_4:nth-of-type(2n+2).inner {
+    margin-left: .6666%;
+  }
+  .margin-col_1_4:nth-of-type(2n+1) {
+    margin-left: 0%;
+    margin-bottom: 0;
+  }
+  .margin-col_1_4:nth-of-type(2n+1).inner {
+    margin-left: .6666%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .margin-col_1_4.inner {
+    margin-left: .6666%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .margin-col_1_4:last-of-type {
+    margin-left: .6666%;
+  }
+}
+
+.margin-col_1_3 {
+  width: 99%;
+  margin: 0 auto 20px;
+}
+.margin-col_1_3.inner {
+  margin-left: auto;
+}
+@media screen and (min-width: 600px) {
+  .margin-col_1_3 {
+    width: 33%;
+    margin-bottom: 0;
+    display: block;
+    float: left;
+  }
+}
+
+.margin-col_1_3.inner {
+  margin-left: .5%;
+  margin-right: .5%;
+}
+
+.margin-col_1_2 {
+  width: 48%;
+  display: block;
+  float: left;
+}
+
+.margin-col_1_2:last-of-type {
+  margin-left: 4%;
+}
+
+.unbalanced-col_2_3 {
+  position: absolute;
+  left: 0;
+  width: 63%;
+  top: 0;
+  height: 100%;
+}
+
+.unbalanced-col_1_3 {
+  display: block;
+  float: right;
+  width: 33%;
+}
+
+.unbalanced-col_1_4 {
+  position: absolute;
+  left: 0;
+  width: 23%;
+  top: 0;
+  height: 100%;
+}
+
+.unbalanced-col_3_4 {
+  display: block;
+  float: right;
+  width: 73%;
+}
+
+h3.-divide {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin: 80px 0;
+  z-index: 1;
+}
+h3.-divide span {
+  background-color: #fff;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+h3.-divide:after {
+  height: 1px;
+  width: 100%;
+  content: '';
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 0;
+}
+
+.innovations .row {
+  padding: 0;
+  position: relative;
+}
+.innovations .row:after {
+  display: block;
+  width: 100%;
+  height: 1px;
+  content: '';
+  clear: both;
+}
+.innovations * {
+  box-sizing: border-box;
+}
+
+.innov-hero {
+  width: 100%;
+  height: 0;
+  position: relative;
+  background: url(../images/innovations/innov-hero.png);
+  background-size: cover;
+  padding-bottom: 37.82161%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.innov-hero .innov-hero-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .innov-hero .innov-hero-text {
+    width: auto;
+  }
+}
+.innov-hero .innov-hero-text h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+  width: 100%;
+  text-shadow: 0 0px 13px rgba(0, 0, 0, 0.9);
+}
+@media screen and (min-width: 767px) {
+  .innov-hero .innov-hero-text h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .innov-hero .innov-hero-text h3 {
+    font-size: 48px;
+  }
+}
+.innov-hero .innov-hero-text p {
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 0 0px 13px rgba(0, 0, 0, 0.9);
+  margin: 0;
+}
+.innov-hero #innov-bunny {
+  position: absolute;
+  bottom: -10px;
+  width: 224px;
+  max-width: 19.5%;
+  height: 0;
+  padding-bottom: 23%;
+  z-index: 9;
+  background-image: url(../images/innovations/innov-bunny.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: -10px;
+}
+
+#tall-row {
+  margin-top: 20px;
+}
+
+.innov-batteries {
+  position: relative;
+  background-size: cover;
+  padding-bottom: 20.5%;
+  border-radius: 4px;
+  height: 0;
+}
+
+#innov-batteries span {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  padding-left: 10px;
+}
+#innov-batteries #innov-eco {
+  background-image: url(../images/innovations/innov-eco.png);
+}
+#innov-batteries #innov-max {
+  background-image: url(../images/innovations/innov-max.png);
+}
+#innov-batteries #innov-lithium {
+  background-image: url(../images/innovations/innov-lithium.png);
+}
+#innov-batteries #innov-recharge {
+  background-image: url(../images/innovations/innov-recharge.png);
+}
+
+.innov-thirds .tall-panel {
+  height: 0;
+  background-size: cover;
+  padding-bottom: 143.8961%;
+}
+.innov-thirds #innov-detector {
+  background-image: url(../images/innovations/innov-detector.png);
+}
+.innov-thirds #innov-possibility {
+  background-image: url(../images/innovations/innov-possibility.png);
+}
+.innov-thirds #innov-watch {
+  background-image: url(../images/innovations/innov-watch.png);
+}
+
+#history-divider p {
+  font-weight: bold;
+  text-align: center;
+}
+#history-divider hr {
+  margin-top: 25px;
+}
+
+.innov-history .history-tile {
+  height: 0;
+  background-size: cover;
+  padding-bottom: 84.68085%;
+}
+.innov-history .history-tile span {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+.innov-history #innov-early {
+  background-image: url(../images/innovations/innov-early.png);
+}
+.innov-history #innov-50 {
+  background-image: url(../images/innovations/innov-50s.png);
+}
+.innov-history #innov-70 {
+  background-image: url(../images/innovations/innov-7080s.png);
+}
+.innov-history #innov-today {
+  background-image: url(../images/innovations/innov-today.png);
+}
+
+.innov-future .future-tile {
+  background-size: cover;
+}
+.innov-future .future-tile span {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+.innov-future #innov-snow {
+  background-image: url(../images/innovations/innov-snow.png);
+}
+.innov-future #innov-lab {
+  background-image: url(../images/innovations/innov-lab.png);
+}
+
+.eg-grid {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1%;
+}
+.eg-grid.-extra-margin {
+  margin-bottom: 3%;
+}
+.eg-grid:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  clear: both;
+}
+.eg-grid.-extra-margin {
+  margin-top: 50px;
+}
+
+.grid-9-12 {
+  width: 100%;
+  text-align: left;
+}
+@media screen and (min-width: 600px) {
+  .grid-9-12 {
+    width: 75%;
+    display: block;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #innov-50s-back .grid-3-12 {
+    width: 25%;
+    display: block;
+    float: left;
+    margin-bottom: 2%;
+  }
+  #innov-50s-back .grid-3-12:nth-of-type(2n+2) {
+    margin-left: .6666%;
+  }
+}
+
+.grid-3-12 {
+  width: 98%;
+  margin: 0 auto 5%;
+  margin-left: auto;
+}
+.grid-3-12.inner {
+  margin-left: auto;
+}
+@media screen and (min-width: 600px) {
+  .grid-3-12 {
+    width: 49.5%;
+    display: block;
+    float: left;
+    margin-bottom: 2%;
+  }
+  .grid-3-12:nth-of-type(2n+2) {
+    margin-left: .6666%;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .grid-3-12 {
+    width: 24.5%;
+    margin-bottom: 0;
+  }
+  .grid-3-12:nth-of-type(2n+2) {
+    margin-left: .6666%;
+  }
+  .grid-3-12:nth-of-type(1n+2) {
+    margin-left: .6666%;
+  }
+}
+
+.grid-4-12 {
+  width: 98%;
+  margin: 0 auto 8%;
+  margin-left: auto;
+}
+.grid-4-12.inner {
+  margin-left: auto;
+}
+@media screen and (min-width: 767px) {
+  .grid-4-12 {
+    display: block;
+    float: left;
+    margin-bottom: 0;
+    width: 33%;
+  }
+  .grid-4-12:nth-of-type(1n+2) {
+    margin-left: .5%;
+  }
+}
+
+#innov-1-3, #innov-2-3, #innov-3-3 {
+  background-size: cover;
+  height: 0;
+  position: relative;
+  padding-bottom: 100%;
+}
+@media screen and (min-width: 900px) {
+  #innov-1-3, #innov-2-3, #innov-3-3 {
+    padding-bottom: 129.87013%;
+  }
+}
+#innov-1-3:after, #innov-2-3:after, #innov-3-3:after {
+  content: '';
+  position: absolute;
+  bottom: -7%;
+  right: 0px;
+  width: 71px;
+  max-width: 25%;
+  height: 0;
+  background-size: contain;
+  padding-bottom: 39%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 767px) {
+  #innov-1-3:after, #innov-2-3:after, #innov-3-3:after {
+    bottom: -5%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #innov-1-3:after, #innov-2-3:after, #innov-3-3:after {
+    padding-bottom: 40%;
+    bottom: -5%;
+  }
+}
+@media screen and (min-width: 1020px) {
+  #innov-1-3:after, #innov-2-3:after, #innov-3-3:after {
+    bottom: -8%;
+    padding-bottom: 50%;
+  }
+}
+#innov-1-3.-left-image:after, #innov-2-3.-left-image:after, #innov-3-3.-left-image:after {
+  left: 10px;
+  right: auto;
+}
+#innov-1-3.-right-image:after, #innov-2-3.-right-image:after, #innov-3-3.-right-image:after {
+  right: 10px;
+}
+
+#innov-1-3 {
+  background-image: url(../images/innovations/innov-1-3.jpg);
+}
+#innov-1-3:after {
+  background-image: url(../images/innovations/innov-1-image.png);
+  max-width: 30%;
+  width: 600px;
+}
+
+#innov-2-3 {
+  background-image: url(../images/innovations/innov-2-3.jpg);
+}
+#innov-2-3:after {
+  background-image: url(../images/innovations/innov-2-image.png);
+  padding-bottom: 27%;
+  max-width: 100%;
+  width: 600px;
+}
+
+#innov-3-3 {
+  background-image: url(../images/innovations/innov-3-3.jpg);
+}
+#innov-3-3:after {
+  background-image: url(../images/innovations/innov-3-image.png);
+  padding-bottom: 38%;
+  max-width: 30%;
+  width: 200px;
+}
+
+#innov-1-4, #innov-2-4, #innov-3-4, #innov-4-4 {
+  background-size: cover;
+  height: 0;
+  position: relative;
+  padding-bottom: 50%;
+}
+@media screen and (min-width: 900px) {
+  #innov-1-4, #innov-2-4, #innov-3-4, #innov-4-4 {
+    padding-bottom: 68.78981%;
+  }
+}
+#innov-1-4:after, #innov-2-4:after, #innov-3-4:after, #innov-4-4:after {
+  content: '';
+  position: absolute;
+  bottom: -7%;
+  right: 0px;
+  width: 71px;
+  max-width: 25%;
+  height: 0;
+  background-size: contain;
+  padding-bottom: 39%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 767px) {
+  #innov-1-4:after, #innov-2-4:after, #innov-3-4:after, #innov-4-4:after {
+    bottom: -5%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #innov-1-4:after, #innov-2-4:after, #innov-3-4:after, #innov-4-4:after {
+    padding-bottom: 40%;
+    bottom: -5%;
+  }
+}
+@media screen and (min-width: 1020px) {
+  #innov-1-4:after, #innov-2-4:after, #innov-3-4:after, #innov-4-4:after {
+    bottom: -8%;
+    padding-bottom: 50%;
+  }
+}
+
+#innov-1-4 {
+  background-image: url(../images/innovations/innov-1-4.jpg);
+}
+#innov-1-4:after {
+  background-image: url(../images/innovations/innov-1-battery.png);
+}
+
+#innov-2-4 {
+  background-image: url(../images/innovations/innov-2-4.jpg);
+}
+#innov-2-4:after {
+  background-image: url(../images/innovations/innov-2-battery.png);
+}
+
+#innov-3-4 {
+  background-image: url(../images/innovations/innov-3-4.jpg);
+}
+#innov-3-4:after {
+  background-image: url(../images/innovations/innov-3-battery.png);
+}
+
+#innov-4-4 {
+  background-image: url(../images/innovations/innov-4-4.jpg);
+}
+#innov-4-4:after {
+  background-image: url(../images/innovations/innov-4-battery.png);
+}
+
+.grid-7-12 {
+  width: 99%;
+  margin: 0 auto 20px;
+  position: relative;
+}
+@media screen and (min-width: 601px) {
+  .grid-7-12 {
+    width: 58.33333%;
+    margin-bottom: 0;
+  }
+}
+
+.grid-5-12 {
+  width: 99%;
+  margin: 0 auto 20px;
+  position: relative;
+}
+@media screen and (min-width: 601px) {
+  .grid-5-12 {
+    width: 40.66667%;
+    margin-bottom: 0;
+  }
+}
+
+.grid-6-12 {
+  width: 99%;
+  margin: 0 auto 20px;
+  position: relative;
+}
+@media screen and (min-width: 601px) {
+  .grid-6-12 {
+    width: 49.5%;
+    margin-bottom: 0;
+  }
+}
+
+.eg-grid .content-front {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  width: 350px;
+  max-width: 90%;
+}
+@media screen and (min-width: 767px) {
+  .eg-grid .content-front.-small {
+    top: 60%;
+    max-width: 60%;
+    left: 10%;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .eg-grid .content-front.-small h4 {
+    text-align: left;
+  }
+}
+.eg-grid .content-front h4 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+  text-align: center;
+}
+.eg-grid .content-front h4.-larger {
+  font-size: 18px;
+  width: 250px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+[class*='grid-'] {
+  display: block;
+}
+@media screen and (min-width: 601px) {
+  [class*='grid-'].independent.-right {
+    float: right;
+  }
+  [class*='grid-'].independent.-right + div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+  }
+  [class*='grid-'].independent.-right + div > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  [class*='grid-'].independent.-left {
+    float: left;
+  }
+  [class*='grid-'].independent.-left + div {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+  }
+  [class*='grid-'].independent.-left + div > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.grid-rounded {
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.grid-rounded:before {
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 5px;
+  z-index: -1;
+  transition: all .3s ease;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+.grid-rounded:hover:before {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+#innov-fly {
+  background-image: url(../images/innovations/innov-fly.jpg);
+  height: 0;
+  padding-bottom: 58.55181%;
+}
+
+#innov-radio {
+  background-image: url(../images/innovations/innov-radio.jpg);
+}
+@media (max-width: 601px) {
+  #innov-radio {
+    height: auto;
+    padding-bottom: 58.55181%;
+  }
+}
+
+#innov-camera {
+  background-image: url(../images/innovations/innov-camera.jpg);
+}
+@media (max-width: 601px) {
+  #innov-camera {
+    height: auto;
+    padding-bottom: 58.55181%;
+  }
+}
+
+#innov-sky {
+  background-image: url(../images/innovations/innov-sky.jpg);
+  height: 0;
+  padding-bottom: 58.55181%;
+}
+
+#innov-snow {
+  background-image: url(../images/innovations/innov-snow.jpg);
+  height: 0;
+  padding-bottom: 58.55181%;
+}
+
+#innov-science {
+  background-image: url(../images/innovations/innov-science.jpg);
+}
+@media (max-width: 601px) {
+  #innov-science {
+    height: auto;
+    padding-bottom: 58.55181%;
+  }
+}
+
+.transitioned-3d {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+/**
+* CARD FLIPS
+**/
+.eg-card {
+  cursor: pointer;
+}
+.eg-card .content-back {
+  display: none;
+}
+
+#cardClone {
+  position: absolute;
+  display: none;
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  min-height: 500px;
+  transition: .6s;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  z-index: 99999;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  -ms-transition: none !important;
+}
+@media (max-width: 767px) {
+  #cardClone {
+    top: 20% !important;
+  }
+}
+@media screen and (min-width: 767px) {
+  #cardClone {
+    min-height: 0;
+  }
+}
+
+#cloneFront, #cloneBack {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: .6s;
+}
+
+#cloneFront {
+  z-index: 100;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-transform: translatez(0);
+          transform: translatez(0);
+  border-radius: 5px;
+  overflow: hidden;
+  visibility: visible;
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 767px) {
+  #cloneFront {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1080px) {
+  #cloneFront {
+    width: 850px;
+  }
+}
+#cloneFront .content-back {
+  display: none;
+}
+
+.ie10 #cloneFront {
+  position: relative;
+}
+
+.ie10 .-shown #cloneFront {
+  display: none;
+}
+
+.-clicked #cloneFront {
+  -ms-animation: hideit 0s linear 0s forwards !important;
+}
+.close-card {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  display: block;
+  z-index: 9999999;
+}
+.close-card img {
+  width: 20px;
+  display: inline-block !important;
+  height: auto;
+}
+@media screen and (min-width: 767px) {
+  .close-card img {
+    width: 15px;
+  }
+}
+
+#cardCloneContain {
+  z-index: 1111;
+  opacity: 0;
+  visibility: hidden;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0px;
+}
+#cardCloneContain:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 400%;
+  background-color: rgba(0, 0, 0, 0.8);
+  content: '';
+  z-index: 0;
+}
+@media screen and (min-width: 767px) {
+  #cardCloneContain:after {
+    height: 200%;
+  }
+}
+#cardCloneContain.-shown {
+  opacity: 1;
+  height: 100%;
+  visibility: visible;
+  z-index: 999999999999999;
+}
+#cardCloneContain.-shown:after {
+  opacity: 1;
+  z-index: -1;
+}
+#cardCloneContain.-shown:before {
+  opacity: 1;
+}
+
+#cloneBack {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  z-index: 101;
+}
+
+#cloneBack .content {
+  min-height: 300px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  z-index: 2;
+  margin-bottom: 20%;
+}
+@media screen and (min-width: 767px) {
+  #cloneBack .content {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1080px) {
+  #cloneBack .content {
+    width: 850px;
+  }
+}
+#cloneBack .content p {
+  font-size: 16px;
+  line-height: 1.4em;
+}
+#cloneBack .content a {
+  text-decoration: underline;
+  color: #000;
+}
+
+#innov-4-4-back, #innov-1-4-back {
+  text-align: center;
+  padding: 50px 20px;
+}
+#innov-4-4-back img, #innov-1-4-back img {
+  max-height: 200px;
+}
+@media screen and (min-width: 767px) {
+  #innov-4-4-back img, #innov-1-4-back img {
+    position: absolute;
+    max-height: none;
+    left: -14%;
+    top: -7%;
+    width: 380px;
+    max-width: 52%;
+  }
+}
+#innov-4-4-back:before, #innov-1-4-back:before {
+  display: block;
+  background-image: url(../images/innovations/innov-back-battery.png);
+  background-size: cover;
+  height: 0;
+  padding-bottom: 53.31%;
+  position: absolute;
+  left: -14%;
+  top: -7%;
+  width: 380px;
+  max-width: 52%;
+}
+#innov-4-4-back:after, #innov-1-4-back:after {
+  content: '';
+  display: block;
+  clear: both;
+  width: 100%;
+  height: 1px;
+}
+#innov-4-4-back .-light, #innov-1-4-back .-light {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#innov-1-4-back img {
+  max-width: 39%;
+  left: -10%;
+}
+#innov-1-4-back:before {
+  background-image: url(../images/innovations/innov-back-battery-eco.png);
+}
+
+#innov-2-4-back, #innov-3-4-back {
+  padding: 50px 20px;
+  padding-top: 20px;
+}
+@media screen and (min-width: 500px) {
+  #innov-2-4-back, #innov-3-4-back {
+    padding-top: 50px;
+  }
+}
+#innov-2-4-back .innov-card-text, #innov-3-4-back .innov-card-text {
+  float: left;
+}
+@media screen and (min-width: 850px) {
+  #innov-2-4-back .innov-card-text, #innov-3-4-back .innov-card-text {
+    padding-left: 9%;
+  }
+}
+#innov-2-4-back img, #innov-3-4-back img {
+  position: absolute;
+  bottom: -5%;
+  right: -2%;
+  max-width: 45%;
+}
+
+.eg-card .-light {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.innov-card-text {
+  text-align: center;
+}
+@media screen and (min-width: 767px) {
+  .innov-card-text {
+    text-align: left;
+    width: 60%;
+    float: right;
+    padding-right: 20px;
+  }
+}
+
+#innov-50s-back, #innov-80s-back, #innov-fly-back, #innov-sky-back {
+  padding: 50px 20px;
+}
+#innov-50s-back img, #innov-80s-back img, #innov-fly-back img, #innov-sky-back img {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 100%;
+}
+@media screen and (min-width: 600px) {
+  #innov-50s-back img, #innov-80s-back img, #innov-fly-back img, #innov-sky-back img {
+    display: inline-block;
+  }
+}
+@media (max-width: 600px) {
+  #innov-50s-back .events:before, #innov-80s-back .events:before, #innov-fly-back .events:before, #innov-sky-back .events:before {
+    content: '';
+    background-image: url(../images/innovations/innov-back-50s.png);
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 30%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+#innov-50s-back .event, #innov-80s-back .event, #innov-fly-back .event, #innov-sky-back .event {
+  position: relative;
+  padding-right: 20px;
+}
+@media screen and (min-width: 600px) {
+  #innov-50s-back .event, #innov-80s-back .event, #innov-fly-back .event, #innov-sky-back .event {
+    padding-left: 40px;
+  }
+}
+#innov-50s-back .event h5, #innov-80s-back .event h5, #innov-fly-back .event h5, #innov-sky-back .event h5 {
+  font-size: 18px;
+  max-width: 40px;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 600px) {
+  #innov-50s-back .event h5, #innov-80s-back .event h5, #innov-fly-back .event h5, #innov-sky-back .event h5 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+  }
+}
+#innov-50s-back .event p, #innov-80s-back .event p, #innov-fly-back .event p, #innov-sky-back .event p {
+  margin-top: 0;
+  padding-top: 0;
+}
+@media screen and (min-width: 600px) {
+  #innov-50s-back .event p, #innov-80s-back .event p, #innov-fly-back .event p, #innov-sky-back .event p {
+    padding-left: 40px;
+  }
+}
+
+#innov-80s-back .events:before {
+  background-image: url(../images/innovations/innov-back-80s.png);
+}
+
+@media screen and (min-width: 600px) {
+  #innov-80s-back .events {
+    padding-left: 50px;
+  }
+}
+
+#innov-fly-back, #innov-sky-back {
+  background-image: none;
+  background-position: top left;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 600px) {
+  #innov-fly-back, #innov-sky-back {
+    background-image: url(../images/innovations/innov-back-fly.png);
+    background-size: auto 100%;
+    background-position: top left;
+  }
+}
+
+#innov-sky-back:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 40%, white 100%);
+}
+@media screen and (min-width: 600px) {
+  #innov-sky-back {
+    background-image: url(../images/innovations/innov-back-sky.png);
+    background-size: 100% auto;
+    background-position: top left;
+  }
+}
+
+#innov-fly-back, #innov-sky-back {
+  padding-top: 60px;
+}
+#innov-fly-back .events:before, #innov-sky-back .events:before {
+  display: none !important;
+}
+@media screen and (min-width: 600px) {
+  #innov-fly-back .events, #innov-sky-back .events {
+    padding-left: 70px;
+  }
+}
+
+#innov-1-3-back, .innov-half-image-back {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+#innov-1-3-back:after, .innov-half-image-back:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  clear: both;
+}
+#innov-1-3-back:before, .innov-half-image-back:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to left, white 0%, white 50%, rgba(255, 255, 255, 0) 100%);
+}
+@media screen and (min-width: 767px) {
+  #innov-1-3-back, .innov-half-image-back {
+    background-size: auto 100%;
+    border-radius: 5px;
+    background-position: top left, top right;
+    background-image: url(../images/innovations/innov-back-smoke.png);
+  }
+}
+#innov-1-3-back .innov-content-back, .innov-half-image-back .innov-content-back {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#innov-1-3-back .innov-content-back p, .innov-half-image-back .innov-content-back p {
+  position: relative;
+  z-index: 1;
+  padding: 30px 10px;
+}
+@media screen and (min-width: 767px) {
+  #innov-1-3-back .innov-content-back, .innov-half-image-back .innov-content-back {
+    background: transparent;
+    min-height: 300px;
+    padding: 50px 50px 50px 20px;
+    width: 50%;
+    float: right;
+  }
+  #innov-1-3-back .innov-content-back p, .innov-half-image-back .innov-content-back p {
+    line-height: 1.4em;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #innov-2-3-back {
+    background-image: url(../images/innovations/innov-back-stars.png);
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #innov-3-3-back {
+    background-image: url(../images/innovations/innov-back-runner.png);
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #innov-sky-back {
+    background-image: url(../images/innovations/innov-back-sky.png);
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #innov-snow-back {
+    background-image: url(../images/innovations/innov-back-snow.png);
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #innov-science-back {
+    background-image: url(../images/innovations/innov-back-science.png);
+  }
+}
+
+body.-no-scroll:not(body.ie10) {
+  height: 100%;
+  left: 0;
+  -webkit-overflow-scrolling: touch;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.grid-rounded.-reverse-hover:before {
+ background-color: rgba(0, 0, 0, 0.1);
+ }
+ .grid-rounded.-reverse-hover:hover:before {
+ background-color: rgba(0, 0, 0, 0.45);
+ }
+ .grid-rounded.-reverse-hover h4 {
+ text-shadow: 0 0px 13px rgba(0, 0, 0, 0.9);
+ }

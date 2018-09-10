@@ -1,0 +1,348 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800,700,400,300);
+ul,li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+  }
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: " ";
+}
+
+.futura-bold-font {
+  font-family: 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* 1.3. On Focus
+========================================================================== */
+
+*:focus{ outline:none; }
+
+ul { list-style-type: none; }
+.energizer_recharge { margin-top: 20px; }
+
+.ener_list1,
+.ener_list2{
+  width: calc(85% - 5px);
+  margin-left: 17.34%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ener_list1 .inner-height { height: 130px; }
+/*.power1 .ener_list1 li:nth-child(3) .ener_image,*/
+/*.power1 .ener_list1 li:nth-child(4) .ener_image { border-right: none; }*/
+
+.ener_image { position: relative; }
+
+.ener_image img { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/*brand logo styling*/
+.brand-logo { 
+  width: calc(17.5% - 6px);
+  padding: 0 15px; 
+  border: 1px solid #DCDCDC;
+  display: inline-block;
+  background-color: #F7F7F7;
+  text-align: center;
+}
+
+/*power styling*/
+.power1,
+.power2 { 
+  position: relative;
+  /*text-align: left; */
+}
+
+/*setting height of brand logo*/
+.power1 .brand-logo,
+.power2 .brand-logo { 
+  height: 320px;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+}
+
+.ener_list2 li,
+.ener_list1 li {
+  width: 14.35%;
+  margin-left: -5px;
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: top;
+  text-align: center;
+}
+
+.ener_list2 li > div,
+.ener_list1 li > div { height: 160px; }
+
+.ener_list1 li .ener_image {
+  border: 1px solid #DCDCDC;
+  border-left: none;
+}
+
+.ener_list1 li .ener_image:nth-child(1) { border-left: 1px solid #DCDCDC; }
+
+.ener_list2 li .content_wrap,
+.ener_list1 li .content_wrap { 
+  border-right: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+ }
+
+
+/*battery paragraph styling*/
+.energizer_recharge li span {
+    max-width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.battery-para { 
+  width: 98%;
+  padding-left: 5px; 
+  position: relative;
+}
+
+.power1 .brand-logo:before,
+.power2 .brand-logo:before,
+.ener_list1 li div.ener_image:before,
+.ener_list2 li div.ener_image:before {
+  content: '';
+  height: 160px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.power1 .brand-logo { border-bottom: none; }
+
+.ener_content {
+  box-sizing: border-box;
+  width: 100%;
+  height: 160px;
+  padding: 10px;
+  display: table;
+  font-size: 1em;
+}
+
+.ener_content__power {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.ener_list2 li div.ener_image { display: none; }
+
+.ener_content__power span { 
+	position: absolute;
+	left: 0;
+	width: 100%;
+	font-size: 12px;
+	line-height: 18px;
+    color: #020202;
+    font-weight: 400;	
+    max-width: 100%;
+	}
+.ener_content__power span:first-child {
+	top: -20px;
+}
+span.only-one {
+	top: 50px!important;
+}
+.ener_content__power span:nth-child(2) {
+	bottom: -30px;
+}
+
+.power_mobile { display: none; }
+.battery-info { margin: 9px 0 10px 0; }
+
+.ener_content .ener_content__power p .per_charge_4 { 
+  display: block; 
+  color: #020202;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.battery-info p { 
+  font-size: .5625em;
+  color: #020202;
+  line-height: 1.3333;
+ }
+
+.ener_content__power p { 
+	position: relative;
+	display: block;
+	color: #000;
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1.2em;
+}
+
+ .battery-info__star {
+  font-size: 15px; 
+  vertical-align: middle;
+}
+
+.power_desktop {
+  position: absolute;
+  top: calc(50% - 45px);
+  left: calc(50% - 66px);
+}
+
+span.battery-para:before {
+  content: ''attr(itemtype)'';
+  font-size: 8px;
+  position: absolute;
+  top: -3px;
+  left: 0;
+}
+
+/*responsive styling*/
+@media screen and (max-width: 1020px) {
+  .power1 .brand-logo { border-bottom: 1px solid #DCDCDC; }
+
+  .power_desktop { display: none; }
+
+  .power_mobile { 
+    max-width: 479px; 
+    width: 100%;
+    display: block; 
+  }
+
+  .ener_content__power span {font-size: 20px; line-height: 30px;}
+  
+  .ener_content__power span:first-child {top: -30px;}
+  
+  .ener_content__power span:nth-child(2) {bottom: -30px;}
+  
+  span.only-one {top: 50px!important;}
+
+  .ener_content__power { font-size: 1.25em; line-height: 1.5}
+
+  .ener_list1,
+  .ener_list2{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .battery-info p { 
+  font-size: .7em;
+  color: #020202;
+  line-height: 20px;
+  }
+
+  .power1 .brand-logo:before,
+  .power2 .brand-logo:before{ height: 0; }
+
+  .ener_list1 .inner-height { height: 160px; }
+
+  .power1 .brand-logo,
+  .power2 .brand-logo {
+    box-sizing: border-box;
+    padding: 15px;
+  }
+
+  .power2 .ener_list2 .ener_image,
+  .ener_list1 .ener_image { width: 34%; }
+
+  .power1 { width: 100%; }
+
+  .ener_list2 .content_wrap,
+  .ener_list1 .content_wrap { width: 66%; }
+
+  .power1 .ener_list1 li:nth-child(3) .ener_image,
+  .power1 .ener_list1 li:nth-child(4) .ener_image { border-right: 1px solid #DCDCDC; }
+
+  .ener_list2 li,
+  .ener_list1 li { margin-left: 0; }
+
+  .ener_list1 li .ener_image { border-top: none; }
+
+  .ener_list2 li .ener_image {
+    border: 1px solid #DCDCDC;
+    border-top: none;
+  }
+
+  .battery-para {
+    width: 98%;
+    padding-left: 6px;
+    float: right;
+    position: relative;
+  }
+
+  .battery-info__star {
+    font-size: 28px; 
+    vertical-align: middle;
+  }
+
+  .ener_content__power p { font-size: 2.4em;}
+
+  .ener_content .ener_content__power p .per_charge_4 { 
+  	margin-top: 19px;
+  }
+
+  .brand-logo { 
+    width: 100%; 
+    background-color: transparent;
+  }
+
+  .brand-logo img { margin: 0 auto; }
+
+  .power2 { margin-top: 75px; }
+
+  .power1 .brand-logo,
+  .power2 .brand-logo{ position: static; height: 160px;}
+
+  .ener_list2 li div.ener_image { 
+    width: 50%;
+    display: inline-block; 
+  }
+
+  .ener_list2 li,
+  .ener_list1 li{
+    width: 100%;
+    display: flex;
+  }
+
+  .ener_list2 li > div,
+  .ener_list1 li > div{
+    width: 50%;
+    display: inline-block;
+  }
+
+  .ener_image { background-color: #F7F7F7; }
+  .battery-info { margin-top: 46px; }
+  .battery-info p { font-size: 1em; }
+
+  span.battery-para:before {
+    content: ''attr(itemtype)'';
+    position: absolute;
+    top: -4px;
+    left: 0;
+    font-size: 9px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .power1 .brand-logo, 
+  .power2 .brand-logo {
+    height: 139px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .power1 .brand-logo, 
+  .power2 .brand-logo {
+    height: 126px;
+  }
+}

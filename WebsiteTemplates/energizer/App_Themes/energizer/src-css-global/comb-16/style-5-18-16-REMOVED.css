@@ -1,0 +1,49 @@
+.buynow .batteries {
+/*position: absolute;*/
+bottom: 15px;
+padding-left: 5px; 
+background:#cccccc;
+list-style: none;
+    float: left;
+    top: 10px;}
+.buynow .batteries li {
+float: left;
+height: 110px;
+margin-right: 15px; }
+.buynow .batteries li.aa {
+width: 22px;
+background: url(../images/header_nav_battery_aa.png) no-repeat; }
+.buynow .batteries li.aa:hover {
+background: url(../images/header_nav_battery_aa_hover.png) no-repeat; }
+.buynow .batteries li.aaa {
+width: 19px;
+background: url(../images/header_nav_battery_aaa.png) no-repeat; }
+.buynow .batteries li.aaa:hover {
+background: url(../images/header_nav_battery_aaa_hover.png) no-repeat; }
+.buynow .batteries li.c {
+width: 44px;
+background: url(../images/header_nav_battery_c.png) no-repeat; }
+.buynow .batteries li.c:hover {
+background: url(../images/header_nav_battery_c_hover.png) no-repeat; }
+.buynow .batteries li.d {
+width: 46px;
+background: url(../images/header_nav_battery_d.png) no-repeat; }
+.buynow .batteries li.d:hover {
+background: url(../images/header_nav_battery_d_hover.png) no-repeat; }
+.buynow .batteries li.ninev {
+width: 40px;
+background: url(../images/header_nav_battery_9v.png) no-repeat; }
+.buynow .batteries li.ninev:hover {
+background: url(../images/header_nav_battery_9v_hover.png) no-repeat; }
+.buynow .batteries li.specialty {
+width: 48px;
+background: url(../images/header_nav_battery_specialty.png) no-repeat; }
+.buynow .batteries li.specialty:hover {
+background: url(../images/header_nav_battery_specialty_hover.png) no-repeat; }
+.buynow .batteries li a {
+text-align: center;
+font-size: 10px;
+font-weight: bold;
+padding-top: 90px; }
+.sizebox{padding-left:15px;}
+.Container .mix {display: block; margin-left: 215px;}

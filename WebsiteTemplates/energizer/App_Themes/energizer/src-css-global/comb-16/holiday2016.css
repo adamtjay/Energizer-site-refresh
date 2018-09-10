@@ -1,0 +1,269 @@
+
+    .legal-copy {
+        font-size: 11px;
+    }
+    
+    .title60 {
+        width: 60%;
+    }
+    
+    .aa-container p img {
+        margin-right: 0;
+        float: right;
+    }
+    
+    .responsive tbody {
+        overflow: auto;
+        display: block;
+    }
+    
+    .tu-table-contain {
+        margin-top: 150px;
+    }
+    
+    .responsive-head thead,
+    .responsive-head th,
+    .responsive-head img,
+    .responsive-head {
+        background: #fff;
+    }
+    
+    .responsivethead tr {
+        display: block;
+        position: relative;
+    }
+    
+    table.responsive-head th,
+    table.responsive-mobile th {
+        font-weight: bold;
+    }
+    
+    table.responsive td,
+    table.responsive-head th,
+    table.responsive-mobile td,
+    table.responsive-mobile th,
+    table.responsive-head th {
+        padding: 9px 10px;
+        text-align: left;
+        font-size: 0.8em;
+    }
+    
+    table.responsive tr:first-of-type {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    
+    table.responsive tr:nth-of-type(odd) td {
+        background: #ebebeb;
+    }
+    
+    .side-head {
+        font-weight: bold;
+        font-size: 12px;
+        width: 80px;
+        background: #ebebeb;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .responsive {
+        table-layout: fixed;
+    }
+    
+    .responsive-head th {
+        text-decoration: underline;
+    }
+    
+    .responsive-head th img {
+        display: block;
+    }
+    
+    @media only screen and (min-width: 767px) {
+        table.responsive {}
+        .responsive-head th {
+            position: relative;
+        }
+        .responsive-head th img {
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+        }
+    }
+    
+    table .has-image {
+        text-align: center !important;
+    }
+    
+    .responsive-mobile {
+        border: 0px solid #ccc;
+        width: 96%;
+        margin: 20px auto 40px;
+    }
+    
+    .responsive-mobile td {
+        width: 50%;
+    }
+    
+    .responsive-mobile td:first-of-type {
+        width: 20%;
+    }
+    
+    .responsive-mobile th {
+        vertical-align: bottom;
+        text-align: right;
+        width: 50%;
+    }
+    
+    .accordion-container .accordion-content .responsive-mobile img {
+        margin-bottom: 0;
+        padding: 15px;
+        border: 0px solid #666;
+        float: none;
+        margin-right: 0;
+    }
+    
+    .stuck {
+        position: fixed;
+        top: 200px;
+    }
+    
+    .stuck:before {
+        content: '';
+        display: block;
+        width: 101%;
+        height: 390px;
+        background: #fff;
+        position: absolute;
+        bottom: 100%;
+    }
+    
+    .responsive-mobile th:last-of-type {
+        text-align: left;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+    
+    .responsive-mobile th * {
+        vertical-align: bottom;
+        display: inline-block;
+    }
+    
+    .responsive-mobile tr {
+        border-top: 0px solid #ccc;
+    }
+    
+    .responsive-mobile tr td:first-of-type {
+        background-color: #fff;
+        text-align: right;
+        padding-right: 25px;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    
+    .responsive-mobile tr:first-of-type {
+        border-top: 0;
+    }
+    
+    .responsive-mobile h3 {
+        font-size: 22px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+    table.responsive td {
+        border: 1px solid #ccc;
+    }
+    
+    table.responsive-head th {
+        border-right: 1px solid #ccc;
+    }
+    
+    table.responsive-mobile {
+        display: none;
+    }
+    
+    table.responsive.fixed thead {
+        position: fixed;
+    }
+    
+    .responsive td {
+        width: 18%;
+    }
+    
+    .responsive td:first-of-type {
+        width: 10%;
+    }
+    /* Mobile */
+    
+    .mobile-only {
+        display: none;
+    }
+    
+    .mobile-only .accordion-container {
+        padding: 0 15px;
+    }
+    
+    p.product-bar.mobile-only {
+        background: #ebebeb url(../images/prod-pattern-bg.png) no-repeat right top;
+        padding-left: 90px;
+        color: #444;
+        margin-bottom: 40px;
+    }
+    
+    p.product-bar.mobile-only:before {
+        width: 30px;
+        height: 30px;
+        content: "";
+        position: absolute;
+        left: 20px;
+        top: 5px;
+    }
+    
+    p.product-bar.national:before {
+        background: url(../images/bunny-table-notxt.png) no-repeat center top;
+        background-size: contain;
+    }
+    
+    p.product-bar.target:before {
+        background: url(../images/target.png) no-repeat center top;
+        background-size: contain;
+    }
+    
+    p.product-bar.homedepot:before {
+        background: url(../images/HomeDepot.png) no-repeat center top;
+        background-size: contain;
+    }
+    
+    p.product-bar.walmart:before {
+        background: url(../images/Walmart.png) no-repeat center top;
+        background-size: contain;
+    }
+    p.product-bar.walgreens:before {
+        background: url(../images/walgreens.png) no-repeat center top;
+        background-size: contain;
+    }
+    
+    p.product-bar.lowes:before {
+        background: url(../images/Lowes.png) no-repeat center top;
+        background-size: contain;
+        top: 12px;
+    }
+    
+    @media only screen and (max-width: 767px) {
+        table.responsive,
+        table.responsive-head {
+            display: none;
+        }
+        .sticky-wrapper {
+            display: none !important;
+        }
+        table.responsive-mobile {
+            display: table;
+        }
+        .tu-table-contain {
+            margin-top: 30px;
+        }
+        .mobile-only {
+            display: block;
+        }
+    }
+.mtop{margin-top:-130px;}

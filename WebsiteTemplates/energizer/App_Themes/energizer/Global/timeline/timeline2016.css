@@ -1,0 +1,56 @@
+/* Timeline 2016 */
+
+.timeline-head__bunny {
+    display: none;
+}
+
+.timeline-head {
+    background: url(/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/Images/timeline/new/bunny-tail.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    padding: 95px 0 0 95px;
+    margin-bottom: 80px;
+}
+
+.timeline-explore:before {
+    display: none;
+}
+
+.timeline-modern__headline {
+    display: none;
+}
+
+.timeline-modern,
+.timeline-modern.shown {
+    background: #fff;
+    background-image: none;
+    color: #000;
+}
+
+.timeline-modern .timeline-year:before {
+    background: #dcdcdc;
+}
+
+.timeline-year:last-of-type:before {
+    display: table !important;
+}
+
+.timeline-year__year.timeline-year__year--light {
+    color: #4a4a4a;
+}
+
+.timeline-link {
+    color: #4a4a4a;
+}
+
+.timeline-year.border-fix {
+    border-top: 1px solid #dcdcdc;
+}
+
+@media (max-width: 800px) {
+    .timeline-head {
+        padding: 25px 0 0 25px;
+        margin-top: 130px;
+    }
+}

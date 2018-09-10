@@ -1,0 +1,24 @@
+.callout{
+	width: 100%;
+	padding: 15px;
+	border-radius: 8px;
+	margin: 40px 0 30px;
+}
+.callout--gray{
+	background: #ebebeb;
+}
+.callout-head{
+	padding: 0 0 5px;
+	margin: 0;
+}
+.callout-list{
+	margin: 0 0 0 20px !important;
+	padding: 0;
+	float: none !important;
+	width: 90% !important;
+	padding-left: 0px !important;
+}
+.callout-list li{
+	margin: 7px 0;
+	font-size: 14px;
+}     

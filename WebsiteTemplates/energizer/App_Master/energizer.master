@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" %>
+
+<%@ Register Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI"
+    TagPrefix="sf" %>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head id="Head1" runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Energizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <sf:ResourceLinks ID="ResourceLinks1" runat="server">
+        <sf:ResourceFile JavaScriptLibrary="JQuery" />
+		<sf:ResourceFile JavaScriptLibrary="JQueryFancyBox"/>
+    </sf:ResourceLinks>
+	<sf:ResourceLinks id="resourcesLinks2" runat="server" UseEmbeddedThemes="true" Theme="Default">
+		<sf:ResourceFile Name="Telerik.Sitefinity.Resources.Themes.Basic.Styles.fancybox.css" Static="true"/>
+	</sf:ResourceLinks>
+ </head>
+<body class="background-red">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WN67N5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WN67N5');</script>
+<!-- End Google Tag Manager -->
+
+    <form id="form1" runat="server">
+<asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true" ScriptMode="Release" LoadScriptsBeforeUI="false"/>
+    <div class="page-container">
+        <div class="top-header mobileHide">
+            <div class="container">
+                <asp:ContentPlaceHolder ID="headerPlaceholder" runat="server" />
+            </div>
+        </div>
+        <header class="main-header">
+            <div class="mobile-menu"></div>
+            <asp:ContentPlaceHolder ID="headernav" runat="server" />
+        </header>
+        <div class="mobile-search">
+            <a href="#" id="mobileSearch"></a>
+        </div>
+        <div class="drop-search-mobile mobileOnly" id="mobileSearchBox">
+            <asp:ContentPlaceHolder ID="headermobilesearch" runat="server" />
+        </div>
+        <div class="main-container">
+            <asp:ContentPlaceHolder ID="contentPlaceholder" runat="server" />
+        </div>
+        <div class="footer-menu-container">
+            <asp:ContentPlaceHolder ID="footerPowerlight" runat="server" />
+            <div class="footer-menu">
+                <asp:ContentPlaceHolder ID="footermenu" runat="server" />
+            </div>
+        </div>
+        <footer id="main-footer">
+            <div class="footer-logo"></div>
+            <asp:ContentPlaceHolder ID="copyrigthmenu" runat="server" />
+            <asp:ContentPlaceHolder ID="coyprightcontainer" runat="server" />
+        </footer>
+    </div>
+    </form>
+	<!-- JS -->
+    <script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/vendor/jquery.bxslider.js" defer></script>
+    <script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/vendor/jquery.meanmenu.js" defer></script>
+    <script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/vendor/jquery.lightSlider.min.js" defer></script>
+    <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js" defer></script>
+    <script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/plugins.js" defer></script>
+    <script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/jquery.aw-showcase.js"
+        type="text/javascript" defer></script>
+    <script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/vendor/responsiveslides.min.js" type="text/javascript" defer></script>
+    <script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/main.js" defer></script>
+	<script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/waypoints.js" defer></script>
+    <script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/vendor/flexibility.js" defer></script>
+    <script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/waypoints.js" defer></script>
+    <script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/timeline/timeline.js" defer></script>
+	<script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/battrycomp.js" defer></script>
+	
+	<script>$(function(){$('script[type="text/javascript/defer"]').each(function(){$(this).clone().attr('type','').insertAfter(this)})});</script>
+
+</body>
+</html>

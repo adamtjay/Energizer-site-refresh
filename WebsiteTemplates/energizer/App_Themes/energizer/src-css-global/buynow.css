@@ -1,0 +1,785 @@
+button.bn-battery{
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	font-weight: bold;
+	outline: none;
+	margin-right: 5px;
+}
+
+.buy-now-widget .col_1_3 {
+	width: 100%;
+		margin-bottom: 30px;
+		padding-left: 0;
+}
+	.buy-now-widget > .content .step.retailers.-hide {
+		visibility: visible;
+		opacity: 1;
+	}
+
+@media screen and (min-width: 800px) {
+	.buy-now-widget .col_1_3 {
+		width: 50%;
+		text-align: left;
+		padding-left: 2%;
+	}
+	.buy-now-widget .col_1_3:nth-of-type(3) {
+		width: 100%;
+		margin-top: 60px;
+	}
+	.buy-now-widget .col_1_3:nth-of-type(1) {
+		padding-left: 0;
+	}
+}
+
+@media screen and (min-width: 980px) {
+	.buy-now-widget .col_1_3 {
+		width: 33.33%;
+		margin-top: 0 !important;
+	}
+	.buy-now-widget .col_1_3:nth-of-type(3) {
+		width: 33.33%;
+	}
+}
+	.buy-now-widget > .content .step.retailers.-hide {
+		visibility: hidden;
+		opacity: 0;
+	}
+
+button.bn-battery[data-type="312"], button.bn-battery[data-type="13"], button.bn-battery[data-type="675"], button.bn-battery[data-type="10"] {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	width: 80px;
+	background-color: transparent;
+	border: 1px solid #bababa;
+	border-radius: 4px;
+	text-align: center;
+}
+
+button.bn-battery[data-type="312"] {
+	color: #622E20;
+}
+button.bn-battery[data-type="312"]:hover, button.bn-battery[data-type="312"].-selected {
+	background-color: #622E20;
+	color: #fff;
+}
+
+button.bn-battery[data-type="13"] {
+	color: #EA8533;
+}
+button.bn-battery[data-type="13"]:hover, button.bn-battery[data-type="13"].-selected {
+	background-color: #EA8533;
+	color: #fff;
+}
+
+button.bn-battery[data-type="675"] {
+	color: #2B368B;
+	margin-top: 10px;
+}
+button.bn-battery[data-type="675"]:hover, button.bn-battery[data-type="675"].-selected {
+	background-color: #2B368B;
+	color: #fff;
+    margin-top: 10px;}
+button.bn-battery[data-type="10"] {
+	color: #000;
+}
+button.bn-battery[data-type="10"]:hover, button.bn-battery[data-type="10"].-selected {
+	background-color: #F6E501;
+	color: #000;
+}
+@media screen and (min-width: 800px) {
+.col_1_3.-recharge {
+	width: 45% !important;
+}
+.col_1_3.-recharge + .col_1_3 {
+	width: 21.6666%;
+}
+}
+
+button.bn-battery[data-type="AA"]{
+	background-image: url(../images/buynow/buynow-aa.png);
+	background-position: 0 0;
+	background-size: cover;
+	width: 29px;
+	height: 125px;
+	text-indent: -99999px;
+}
+button.bn-battery[data-type="AA"]:hover, button.bn-battery[data-type="AA"].-selected{
+	background-position: 0 125px;
+}
+button.bn-battery[data-type="UR AA"] {
+	position: relative;
+}
+button.bn-battery[data-type="UR AA"]:hover:before,button.bn-battery[data-type="UR AA"].-selected:before, button.bn-battery[data-type="UR AAA"]:hover:before, button.bn-battery[data-type="UR AAA"].-selected:before, button.bn-battery[data-type="PP AA"]:hover:before, button.bn-battery[data-type="PP AA"].-selected:before, button.bn-battery[data-type="PP AAA"]:hover:before, button.bn-battery[data-type="PP AAA"].-selected:before {
+	color: #DA6167;
+}
+button.bn-battery[data-type="UR AA"]:before {
+	content: 'Universal';
+}
+button.bn-battery[data-type="UR AAA"]:before {
+	content: 'Universal';
+}
+button.bn-battery[data-type="PP AA"]:before {
+	content: 'Power Plus';
+}
+button.bn-battery[data-type="PP AAA"]:before {
+	content: 'Power Plus';
+}
+
+button.bn-battery[data-type="UR AA"]:before,button.bn-battery[data-type="UR AAA"]:before, button.bn-battery[data-type="PP AA"]:before, button.bn-battery[data-type="PP AAA"]:before{
+
+	    font-size: 16px;
+	    display: inline-block;
+	    transform: rotate(90deg);
+	    font-size: 12px;
+	    display: inline-block;
+	    transform: rotate(-90deg) translate(-50%, -50%);
+	    color: #aaaaaa;
+	    position: absolute;
+	    top: 2%;
+	    left: 0;
+	    transform-origin: 50%;
+	    z-index: 3;
+	    text-indent: 0;
+	    line-height: 23px;
+	    /* position: relative; */
+	    width: 70px;
+	    text-align: center;
+	    height: 31px;
+}
+/*button.bn-battery.PP {
+	position: relative;
+	display: block;
+}*/
+button.bn-battery[data-type="UR AA"]{
+	background-image: url(../images/buynow/buynow-aa.png);
+	background-position: 0 0;
+	background-size: cover;
+	width: 29px;
+	height: 125px;
+	text-indent: -99999px;
+}
+button.bn-battery[data-type="UR AA"]:hover, button.bn-battery[data-type="UR AA"].-selected, button.bn-battery[data-type="AA"].-selected{
+	background-position: 0 125px;
+}
+button.bn-battery[data-type="PP AA"]{
+	background-image: url(../images/buynow/buynow-aa.png);
+	background-position: 0 0;
+	background-size: cover;
+	width: 29px;
+	height: 125px;
+	text-indent: -99999px;
+}
+button.bn-battery[data-type="PP AA"]:hover,button.bn-battery[data-type="PP AA"].-selected, button.bn-battery[data-type="AA"].-selected{
+	background-position: 0 125px;
+}
+button.bn-battery[data-type="UR AAA"]{
+	background-image: url(../images/buynow/buynow-aaa.png);
+	background-position: 0 0;
+	background-size: cover;
+	position: relative;
+	width: 28px;
+	text-indent: -99999px;
+	height: 125px;
+}
+button.bn-battery[data-type="UR AAA"]:hover, button.bn-battery[data-type="UR AAA"].-selected, button.bn-battery[data-type="AAA"].-selected{
+	background-position: 0 125px;
+}
+button.bn-battery[data-type="PP AAA"]{
+	background-image: url(../images/buynow/buynow-aaa.png);
+	background-position: 0 0;
+	background-size: cover;
+	width: 28px;
+	text-indent: -99999px;
+	position: relative;
+	height: 125px;
+}
+button.bn-battery[data-type="PP AAA"]:hover,button.bn-battery[data-type="PP AAA"].-selected, button.bn-battery[data-type="AAA"].-selected{
+	background-position: 0 125px;
+}
+
+button.bn-battery[data-type="AAA"]{
+	background-image: url(../images/buynow/buynow-aaa.png);
+	background-position: 0 0;
+	background-size: cover;
+	width: 28px;
+	text-indent: -99999px;
+	height: 125px;
+}
+button.bn-battery[data-type="AAA"]:hover, button.bn-battery[data-type="AAA"].-selected{
+	background-position: 0 125px;
+}
+button.bn-battery[data-type="UR AAA"]{
+	background-image: url(../images/buynow/buynow-aaa.png);
+	background-position: 0 0;
+	background-size: cover;
+	width: 28px;
+	text-indent: -99999px;
+	height: 125px;
+}
+button.bn-battery[data-type="UR AAA"]:hover, button.bn-battery[data-type="AAA"].-selected{
+	background-position: 0 125px;
+}
+button.bn-battery[data-type="PP AAA"]{
+	background-image: url(../images/buynow/buynow-aaa.png);
+	background-position: 0 0;
+	background-size: cover;
+	width: 28px;
+	text-indent: -99999px;
+	height: 125px;
+}
+button.bn-battery[data-type="PP AAA"]:hover, button.bn-battery[data-type="AAA"].-selected{
+	background-position: 0 125px;
+}
+
+button.bn-battery[data-type="C"]{
+	background-image: url(../images/buynow/buynow-c.png);
+	background-position: 0 0;
+	background-size: cover;
+	text-indent: -99999px;
+	width: 54px;
+	height: 128px;
+}
+button.bn-battery[data-type="C"]:hover, button.bn-battery[data-type="C"].-selected{
+	background-position: 0 128px;
+}
+
+button.bn-battery[data-type="D"]{
+	background-image: url(../images/buynow/buynow-d.png);
+	background-position: 0 0;
+	background-size: cover;
+	text-indent: -99999px;
+	width: 58px;
+	height: 128px;
+}
+button.bn-battery[data-type="D"]:hover, button.bn-battery[data-type="D"].-selected{
+	background-position: 0 128px;
+}
+
+button.bn-battery[data-type="9V"]{
+	background-image: url(../images/buynow/buynow-9v.png);
+	background-position: 0 0;
+	text-indent: -99999px;
+	background-size: cover;
+	width: 51px;
+	height: 127px;
+}
+button.bn-battery[data-type="9V"]:hover, button.bn-battery[data-type="9V"].-selected{
+	background-position: 0 128px;
+}
+
+
+ol.no-indent {
+	margin-left: 0;
+	padding-left: 18px;
+}
+
+.bn-large-image {
+	width: 100%;
+	text-align: center;
+}
+
+.bn-large-image img{
+	max-width: 100%;
+}
+
+.buy-now-widget {
+	width: 100%;
+	margin-bottom: 50px;
+	display: block;
+}
+
+.buy-now-widget > .head {
+	width: 100%;
+	min-height: 50px;
+	line-height: 1.2em;
+	background-color: #000;
+	background-image: url(../images/buynow/barglow.png);
+	background-size: auto 100%;
+	background-position: right center;
+	background-repeat: no-repeat;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding-left: 30px;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@media screen and (min-width: 680px) {
+	.buy-now-widget > .head {
+		padding-top: 0;
+		line-height: 50px;
+		padding-bottom: 0;
+	}
+}
+
+.buy-now-widget > .head:before {
+	content: '';
+	position: absolute;
+	bottom: 100%;
+	/*left: 20px;*/
+	right: 4%;
+	background: url(../images/buynow/peakingbunny-mobile.png) no-repeat;
+	width: 137px;
+	margin-right: -1px;
+	/*height: 90px;*/
+	height: 134px;
+	-webkit-transform: translateY(8px);
+	-ms-transform: translateY(8px);
+	-o-transform: translateY(8px);
+	transform: translateY(8px);
+	display: block;
+	z-index: 2;
+}
+
+@media screen and (min-width: 980px) {
+	.buy-now-widget > .head:before {
+		content: '';
+		position: absolute;
+		/*bottom: 0;*/
+		/*right: 100%;*/
+		right: 4%;
+		left: auto;
+		background: url(../images/buynow/peakingbunny.png) no-repeat;
+		/*width: 71px;*/
+		width: 128px;
+		margin-right: -1px;
+		/*height: 85px;*/
+		display: block;
+	}
+}
+
+.buy-now-widget > .head > h3 {
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.buy-now-widget > .content {
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	background-color: #f8f8f8;
+	border: 1px solid #bababa;
+	border-top: 0;
+	padding: 30px;
+}
+.buy-now-widget.-no-pad > .content {
+	padding-left: 0;
+	padding-right: 0;
+}
+.buy-now-widget.-no-pad > .content .packs {
+	padding-left: 30px;
+}
+.buy-now-widget > .content:after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	clear: both;
+}
+
+.contact-container.-buy-now h3 {
+	margin-top: 0;
+}
+
+.-no-pad-col {
+	padding-left: 0;
+}
+
+.buy-now-widget > .content .step.-hide {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.buy-now-widget {
+/*	margin-top: 100px;*/
+	margin-top: 126px;
+}
+
+.buy-now-widget > .content .row {
+	margin-top: 20px;
+}
+	
+.buy-now-widget > .content .row .retailers {	
+	text-align: center;
+}	
+
+
+	.buy-now-widget > .content .row .retailers .full {
+		display: none;
+	}
+	.buy-now-widget > .content .row .retailers .mobile {
+		display: inline-block;
+	}
+
+@media screen and (min-width: 780px) {
+	.buy-now-widget > .content .row .retailers .full {
+		display: inline-block;
+		width: 63%;
+	}
+	.buy-now-widget > .content .row .retailers .mobile {
+		display: none;
+	}
+}
+
+.buy-now-widget > .content .step.retailers img{
+	vertical-align: bottom;
+	width: 100%;
+}
+
+.buy-now-widget > .content .step.retailers h3{ 
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+
+.buy-now-widget > .content .step.loading *:not(h3){
+	opacity: 0;
+	visibility: hidden;
+}
+
+.buy-now-widget > .content .step{
+	opacity: 1;
+	visibility: visible;
+	min-height: 80px;
+	transition: all .4s ease;
+}
+
+.buy-now-widget > .content .step *{
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.buy-now-widget > .content .step{
+	position: relative;
+}
+
+.buy-now-widget > .content .step:before{
+	content: '';
+	width: 16px;
+	height: 16px;
+	visibility: hidden;
+	opacity: 0;
+	background: url(../images/buynow/loading.gif);
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+.buy-now-widget > .content .step.loading:before{
+	visibility: visible;
+	opacity: 1;
+}
+.buy-now-widget > .content .step.loading ~ .step:before{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.buy-now-widget > .content .step h3{ 
+	font-size: 16px;
+}
+
+
+
+.buy-now-widget > .content .packs {
+	min-height: 80px;
+}
+.buy-now-widget > .content .retailers.loading:before {
+	left: 50% !important;
+}
+
+.buy-now-widget > .content .packs button{ 
+	border-radius: 4px;
+	background-color: transparent;
+	border: 1px solid #bababa;
+	padding: 5px 8px;
+	margin-right: 4px;
+	outline-color: #ccc;
+	outline-width: 0px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 4px;
+}
+
+.buy-now-widget > .content .packs button.-selected{ 
+	background-color: #f4e1e2;
+	border-color: #ecbbbd;
+	color: #cc181e;
+}
+.buy-now-widget > .content .packs button.-faded{ 
+	color: #bababa;
+}
+
+.buy-now-widget > .content ul#retailers {
+            justify-content: left;
+        }
+
+@media screen and (min-width: 980px) {
+	.buy-now-widget > .content ul#retailers {
+            justify-content: center;
+        }
+}
+
+.buy-now-widget > .content ul#retailers {
+            list-style: none;
+            overflow: hidden;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+       .buy-now-widget > .content li.item {
+            width: 111px;
+            height: 42px;
+            margin: 0;
+            padding: 10px;
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            flex-wrap: wrap;
+        }
+
+        .buy-now-widget > .content .item-oos {
+            order: 1;
+        }
+
+       .buy-now-widget > .content .logo {
+            display: block;
+            margin: 0 auto;
+        }
+
+       .buy-now-widget > .content a img {
+            border: none;
+        }
+
+
+/* Container used for styling the custom select, the buttom class below adds the
+ * bg gradient, corners, etc. */
+.custom-select {
+	position: relative;
+	display: block;
+	background-color: #eeeeee;
+	border: 1px solid #bababa;
+	border-radius: 4px;
+	outline: none;
+	width: 200px;
+}
+
+/* This is the native select, we're making everything but the text invisible so
+ * we can see the button styles in the wrapper */
+.custom-select select {
+	width: 100%;
+	margin: 0;
+	outline: none;
+	padding: .6em .8em .5em .8em;
+
+	/* Prefixed box-sizing rules necessary for older browsers */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	/* Font size must be 16px to prevent iOS page zoom on focus */
+	font-size: 16px;
+}
+
+
+/* Custom arrow sits on top of the select - could be an image, SVG, icon font,
+ * etc. or the arrow could just baked into the bg image on the select. */
+.custom-select::after {
+	content: "";
+	background-image: url(../images/buynow/arrow-down.png);
+	width: 7px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 6px;
+	position: absolute;
+	top: 45%;
+	right: 1em;
+	z-index: 2;
+	/* These hacks make the select behind the arrow clickable in some browsers */
+	pointer-events: none;
+	display: none;
+}
+
+@supports ( -webkit-appearance: none ) or ( appearance: none )
+	/* Firefox <= 34 has a false positive on @supports( -moz-appearance: none )
+	 * @supports ( mask-type: alpha ) is Firefox 35+
+	 */
+	or ( ( -moz-appearance: none ) and ( mask-type: alpha ) ) {
+	
+	/* Show custom arrow */
+	.custom-select::after {
+		display: block;
+	}
+
+	/* Remove select styling */
+	.custom-select select {
+		padding-right: 2em; /* Match-01 */
+		/* inside @supports so that iOS <= 8 display the native arrow */
+		background: none; /* Match-04 */
+		/* inside @supports so that Android <= 4.3 display the native arrow */
+		border: 1px solid transparent; /* Match-05 */
+
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+	.custom-select select:focus {
+		border-color: #aaa; /* Match-03 */
+	}
+}
+
+/* Adds Firefox < 35 support */
+/* FIREFOX won't let us hide the native select arrow, so we have to make it wider than needed and clip it via overflow on the parent container. The percentage width is a fallback since FF 4+ supports calc() so we can just add a fixed amount of extra width to push the native arrow out of view. We're applying this hack across all FF versions because all the previous hacks were too fragile and complex. You might want to consider not using this hack and using the native select arrow in FF. Note this makes the menus wider than the select button because they display at the specified width and aren't clipped. Targeting hack via http://browserhacks.com/#hack-758bff81c5c32351b02e10480b5ed48e */
+/* Show only the native arrow */
+@-moz-document url-prefix() {
+	/* Warning: this kills the focus outline style */
+	.custom-select {
+		overflow: hidden;
+	}
+	.custom-select::after {
+		display: block;
+	}
+	/* Make the native select extra wide so the arrow is clipped. 1.5em seems to be enough to safely clip it */
+	.custom-select select {
+		overflow: -moz-hidden-unscrollable;
+		padding-right: .4em;
+		background: none; /* Match-04 */
+		border: 1px solid transparent; /* Match-05 */
+		/* Firefox < 4 */
+		min-width: 6em;
+		width: 130%;
+		/* Firefox 4-15 */
+		min-width: -moz-calc(0em);
+		width: -moz-calc(100% + 2.4em);
+		/* Firefox 16+ */
+		min-width: calc(0em);
+		width: calc(100% + 2.4em);
+	}
+
+	/* Firefox 35+ that supports hiding the native select can have a proper 100% width, no need for the overflow clip trick */
+	@supports ( mask-type: alpha ) {
+		.custom-select {
+			overflow: visible;
+		}
+		.custom-select select {
+			-moz-appearance: none;
+			width: 100%;
+			padding-right: 2em; /* Match-01 padding-right */
+		}
+	}
+}
+
+/* Firefox focus has odd artifacts around the text, this kills that. See https://developer.mozilla.org/en-US/docs/Web/CSS/:-moz-focusring */
+.custom-select select:-moz-focusring {
+	color: transparent;
+	text-shadow: 0 0 0 #000;
+}
+
+/* IE 10/11+ - This hides native dropdown button arrow so it will have the custom appearance. Targeting media query hack via http://browserhacks.com/#hack-28f493d247a12ab654f6c3637f6978d5 - looking for better ways to achieve this targeting */
+/* The second rule removes the odd blue bg color behind the text in the select button in IE 10/11 and sets the text color to match the focus style's - fix via http://stackoverflow.com/questions/17553300/change-ie-background-color-on-unopened-focused-select-box */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+	.custom-select select::-ms-expand {
+		display: none;
+	}
+	.custom-select select:focus {
+		border-color: #aaa; /* Match-03 */
+	}
+	.custom-select select:focus::-ms-value {
+		background: transparent;
+		color: #222; /* Match-02*/
+	}
+	.custom-select select {
+		padding-right: 2em; /* Match-01 */
+		background: none; /* Match-04 */
+		border: 1px solid transparent; /* Match-05 */
+	}
+	.custom-select::after {
+		display: block;
+	}
+}
+.buynowtop a{color:#d33128 !important}
+
+.buy-now-widget p{color: #fff;
+    margin-top: -25px;
+    font-size: 12px;
+	margin-bottom: 0px;}
+@media screen and (max-width: 680px) {
+.buy-now-widget p{margin-top: 0px;}
+}
+.bnreset {    
+	float: right;
+    font-size: 15px;
+	display:none;
+	}
+#bnplink{
+	display:none;
+	font-size:15px;
+}
+.ulbg{
+background-image: url(../images/buynow/bn-blue-glow.png) !important;}
+.rcbg{
+background-image: url(../images/buynow/bn-green-glow.png) !important;}
+@media screen and (max-width: 680px) {
+	.buy-now-widget > .head:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background-image: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+		border-top-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+	}
+}
+/*
+.row img {
+	max-width: 100%;
+}*/
+.buy-now-widget > .head h3 {
+position: relative;
+z-index: 2;
+}
+.buy-now-widget > .head p {
+position: relative;
+z-index: 2;
+}
+@media screen and (max-width: 1024px) {
+	.buy-now-widget > .content {
+		// updating padding from 30px to 30px 13px;
+		padding: 30px 13px !important;
+	}
+	button.bn-battery {
+		margin-right: 4px !important;
+		padding: 0 !important; 
+	}
+	button.bn-battery:last-of-type {
+		margin-right: 0px !important;
+	}
+}
+
+
+@media screen and (max-width: 980px) {
+	.buy-now-widget > .content .step.-hide {
+		max-height: 0px !important;
+		overflow: hidden;
+		min-height: 0;
+		margin-bottom: 0 !important;
+	}
+	.buy-now-widget .col_1_3 {
+		margin-bottom: 0 !important;
+
+	}
+	.buy-now-widget > .content .step {
+	margin-bottom: 30px !important;
+	}
+}
+.buy-now-widget img.mobile {
+	max-width: 100%;
+}
+.photoselect{width:80%;}

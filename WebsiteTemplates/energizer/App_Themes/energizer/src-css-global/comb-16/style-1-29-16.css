@@ -1,0 +1,6 @@
+@media (min-width: 860px)
+{
+	.faqmargin {margin-top: -110px !important;}
+}
+
+.accordion-container .accordion-toggle{background-repeat: repeat-y;}
