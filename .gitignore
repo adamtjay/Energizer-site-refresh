@@ -1,6 +1,8 @@
+node_modules/
+
 build/
 specs/
-node_modules/
+WebsiteTemplates/
 
 Energizer-Dev-Notes.txt
 Template-Optimization-notes.txt

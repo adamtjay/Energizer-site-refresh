@@ -32,7 +32,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WN67N5');</script>
 <!-- End Google Tag Manager -->
-
     <form id="form1" runat="server">
 <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true" ScriptMode="Release" LoadScriptsBeforeUI="false"/>
     <div class="page-container">
@@ -71,19 +70,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/vendor/jquery.bxslider.js" defer></script>
     <script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/vendor/jquery.meanmenu.js" defer></script>
     <script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/vendor/jquery.lightSlider.min.js" defer></script>
-    <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js" defer></script>
     <script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/plugins.js" defer></script>
     <script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/jquery.aw-showcase.js"
         type="text/javascript" defer></script>
     <script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/vendor/responsiveslides.min.js" type="text/javascript" defer></script>
     <script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/main.js" defer></script>
-	<script src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/waypoints.js" defer></script>
-    <script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/vendor/flexibility.js" defer></script>
-    <script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/waypoints.js" defer></script>
+	<script type="text/javascript" src="/Sitefinity/websiteTemplates/energizer/App_Themes/energizer/js/card-flip.js" defer></script>
     <script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/timeline/timeline.js" defer></script>
-	<script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/battrycomp.js" defer></script>
-	
+    <script src="/Sitefinity/WebsiteTemplates/energizer/App_Themes/energizer/js/waypoints.js" defer></script>
 	<script>$(function(){$('script[type="text/javascript/defer"]').each(function(){$(this).clone().attr('type','').insertAfter(this)})});</script>
+
 
 </body>
 </html>

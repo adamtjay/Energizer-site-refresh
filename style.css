@@ -1263,19 +1263,23 @@ body {
     outline: none !important; }
   /* line 13, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_global.scss */
   body.background-red {
-    background: white url('../images/bg_lg_red-main.jpg') no-repeat top center; }
+      background: white !important; }
+   /* background: white url('../images/bg_lg_red-main.jpg') no-repeat top center; }
     @media (max-width: 530px) {
       body.background-red, body.background-green {
-        background-position: center -80px; } }
+        background-position: center -80px; } } */
   /* line 20, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_global.scss */
   body.background-yellow {
-    background: white url('../images/global_yellow_bg.png') no-repeat top center; }
+     background: white !important; }
+   /* background: white url('../images/global_yellow_bg.png') no-repeat top center; } */
   /* line 24, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_global.scss */
   body.background-blue {
-    background: white url('../images/global_blue_bg.png') no-repeat top center; }
+     background: white !important; }
+  /*  background: white url('../images/global_blue_bg.png') no-repeat top center; } */
   /* line 28, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_global.scss */
   body.background-green {
-    background: white url('../images/global_green_bg.png') no-repeat top center; }
+      background: white !important; }
+   /* background: white url('../images/global_green_bg.png') no-repeat top center; } */
 
 /* line 33, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_global.scss */
 a {
@@ -3828,7 +3832,7 @@ a {
 .main-container, .filtered-products-page-container, .contact-container, .faq-container {
   max-width: 1170px;
   width: 100%;
-  margin: 70px auto 0;
+  margin: 30px auto 0;
   background: rgba(255, 255, 255, 0.4);
   border-radius: 5px; }
   @media (max-width: 530px) {
@@ -4322,6 +4326,7 @@ a.meanmenu-reveal {
 
 /* line 7, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
 .top-header {
+  background: #000000;
   height: 64px;
   text-align: right;
   font-size: 14px;
@@ -4402,7 +4407,8 @@ a.meanmenu-reveal {
 
 /* line 98, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
 .main-header {
-  background: rgba(32, 32, 32, 0.6);
+  background: #202020;
+  /* background: rgba(32, 32, 32, 0.6); */
   width: 100%;
   height: 92px;
   -webkit-transition: background 0.3s ease;
@@ -4410,13 +4416,14 @@ a.meanmenu-reveal {
   /* line 103, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
   .main-header:hover, .main-header.fixed {
     background: #202020; }
-  @media (max-width: 530px) {
+/* Removed with 2018 site refresh - mobile nav should no longer be transparent */	
+  /*@media (max-width: 530px) {
     .main-header {
       background: transparent;
       margin: 20px 0; }
       /* line 110, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
-      .main-header:hover {
-        background: transparent; } }
+      /* .main-header:hover {
+        background: transparent; } } */
   /* line 114, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
   .main-header .container {
     height: 100%;
@@ -5975,24 +5982,34 @@ h3.slider-title {
 
 /* line 53, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_page-batteries-landing.scss */
 .product-head {
-  width: 100%;
+  width: 95%;
   height: 40px;
   margin: 70px 0 10px;
+  margin-left: 2%;
   padding-left: 110px;
-  border-radius: 5px;
+ /* border-radius: 5px;
   background: #202020;
-  color: #fff;
+  color: #fff; */
+  background: #fff;
+  color: #000;
+  border-bottom: 4px solid #ebebeb;
   line-height: 40px;
   position: relative;
   float: left; }
   /* line 64, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_page-batteries-landing.scss */
   .product-head h4 {
     margin: 0;
+	margin-left: -10%;
     padding: 0;
     z-index: 100; }
     @media (max-width: 530px) {
       .product-head h4 {
+		margin-left: 10%;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); } }
+	 @media (max-width: 680px) {
+      .product-head h4 {
+		margin-left: 15%;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); } }	
     @media (min-width: 530px) and (max-width: 1030px) {
       .product-head h4 {
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); } }
@@ -6043,11 +6060,13 @@ h3.slider-title {
 .product {
   width: 23%;
   margin: 1%;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
+  background: #ebebeb;
   position: relative;
   box-sizing: border-box;
   text-align: center;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  text-decoration: none;
   padding: 22px 0;
   float: left;
   min-width: 200px; }
@@ -6075,7 +6094,7 @@ h3.slider-title {
 .product-overlay {
   position: absolute;
   top: 0;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   left: 0;
   width: 100%;
   height: 100%;
@@ -6191,7 +6210,9 @@ h3.slider-title {
   background: #ebebeb;
   border-radius: 5px;
   padding: 25px;
+  width: 100%;
   margin-top: 50px;
+  margin-left: -0.3%;
   position: relative; }
   /* line 51, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_page-lighting-landing.scss */
   .lighting-finder h3 {
@@ -6263,14 +6284,14 @@ h3.slider-title {
 
 /* line 125, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_page-lighting-landing.scss */
 .lighting-product {
-  background: #000;
+  background: #ebebeb;
   position: relative;
   width: 100%;
   height: 202px;
   text-align: center;
-  max-width: 262px;
-  border-radius: 6px;
-  border: 1px solid #ccc; }
+  max-width: 262px; 
+  /*border-radius: 6px;
+  border: 1px solid #ccc; */   }
   @media (min-width: 530px) and (max-width: 1030px) {
     .lighting-product {
       max-width: none; } }
@@ -6288,8 +6309,10 @@ h3.slider-title {
         max-width: 100%; } }
   /* line 149, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_page-lighting-landing.scss */
   .lighting-product img {
-    width: 90%;
-    max-width: 262px;
+   /* width: 90%;
+    max-width: 202px; */
+	width: 100%;
+	max-width: 100%;
     margin: 0px 0 0px 0; }
     @media (min-width: 530px) and (max-width: 1030px) {
       .lighting-product img {
@@ -6318,7 +6341,7 @@ h3.slider-title {
     left: 0;
     width: 100%;
     height: 200px;
-    background: url(../images/product-bg-transparent.png) no-repeat center center;
+    /* background: url(../images/product-bg-transparent.png) no-repeat center center; */
     background-size: cover; }
     @media (min-width: 530px) and (max-width: 1030px) {
       .lighting-product .overlay-product {
