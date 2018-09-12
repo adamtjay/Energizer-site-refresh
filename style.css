@@ -114,11 +114,11 @@ h4 {
   font-size: 1em;
   margin: 1.33em 0; }
 
-h4 a {  
+h4 a {
 	text-decoration: none;
 	color: #000;
 	}
-  
+
 /* line 146, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_normalize.scss */
 h5 {
   font-size: 0.83em;
@@ -1636,7 +1636,7 @@ small {
   position: relative;
   display: block;
   border-radius: 4px;
-  clear: both; 
+  clear: both;
   text-decoration: none;}
   @media (max-width: 530px) {
     .accordion-container .accordion-toggle {
@@ -4378,7 +4378,7 @@ a.meanmenu-reveal {
   vertical-align: top;
   margin: 1em 0;
   height: 30px;
-  border-radius: 5px; 
+  border-radius: 5px;
   float: left;}
   /* line 73, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
   .search input {
@@ -4416,7 +4416,7 @@ a.meanmenu-reveal {
   /* line 103, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
   .main-header:hover, .main-header.fixed {
     background: #202020; }
-/* Removed with 2018 site refresh - mobile nav should no longer be transparent */	
+/* Removed with 2018 site refresh - mobile nav should no longer be transparent */
   /*@media (max-width: 530px) {
     .main-header {
       background: transparent;
@@ -4539,7 +4539,7 @@ a.meanmenu-reveal {
     .main-header .nav-contain .power .nvabrowsby {
 		font-weight:bold;
 		font-size:13px;
-		margin-top: 1px;		
+		margin-top: 1px;
 		float: left;}
     @media (max-width: 1140px) {
       .main-header .nav-contain .power .bunny-center {
@@ -4746,14 +4746,14 @@ font-size: 17px;  }
     .main-header .nav-contain .subnav .batteries {
       position: absolute;
       bottom: 5px;
-      padding-left: 0px; 
+      padding-left: 0px;
 	  z-index:99999;}
       /* line 488, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
       .main-header .nav-contain .subnav .batteries li {
         float: left;
         height: 110px;
         margin-right: 15px; }
-		
+
 .main-header .nav-contain .subnav .batteries li.bathead {
   padding: 10px 0 5px;
   text-align: left;
@@ -4865,7 +4865,7 @@ font-size: 17px;  }
 		text-align: left;
 		padding: 0 0 0 200px;
 	}
-	  
+
       @media (max-width: 1080px) {
         .main-header .nav-contain .subnav .lamp {
           display: none; } }
@@ -5043,7 +5043,7 @@ font-size: 17px;  }
   position: absolute;
   top: 95px;
   padding: 15px 2%;
-  width: 100%; 
+  width: 100%;
   z-index: 999999;}
   /* line 777, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_header.scss */
   .drop-search-mobile input {
@@ -5219,7 +5219,7 @@ ul.subnav.promo-subnav {
       max-height: none; }
       @media (min-width: 1030px) {
         .footer-menu-container .active.power-menu, .footer-menu-container .active.lighting-menu {
-          max-height: 400px; 
+          max-height: 400px;
 		  height: 400px;} }
       /* line 26, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_footer.scss */
       .footer-menu-container .active.power-menu h2:after, .footer-menu-container .active.lighting-menu h2:after {
@@ -5242,7 +5242,7 @@ ul.subnav.promo-subnav {
       font-size: 18px;
       line-height: 24px;
       float: left;
-      clear: right; 
+      clear: right;
 	  cursor: pointer;}
       /* line 50, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_footer.scss */
       .footer-menu-container .power-menu h2:after, .footer-menu-container .lighting-menu h2:after {
@@ -5652,7 +5652,7 @@ body .footer-menu-container .power-mobile-drop ul.batteries-list {
 
 /* line 205, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_page-home.scss */
 .tablet-promo {
-  /*margin: 70px 0 0px; 
+  /*margin: 70px 0 0px;
   margin: -35px 0 0px;*/}
   @media (max-width: 530px) {
     .tablet-promo {
@@ -5678,7 +5678,7 @@ body .footer-menu-container .power-mobile-drop ul.batteries-list {
 	@media (max-width: 993px) {
 	ul#promo-slide .promotional img {
 	height: auto; } }
-	
+
 /* line 3, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_page-about.scss */
 .about-container {
   max-width: 940px;
@@ -5998,6 +5998,7 @@ h3.slider-title {
   float: left; }
   /* line 64, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_page-batteries-landing.scss */
   .product-head h4 {
+	max-width: 80%;
     margin: 0;
 	margin-left: -10%;
     padding: 0;
@@ -6006,10 +6007,10 @@ h3.slider-title {
       .product-head h4 {
 		margin-left: 10%;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); } }
-	 @media (max-width: 680px) {
+	 @media (min-width: 680px) and (max-width: 780px) {
       .product-head h4 {
-		margin-left: 15%;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); } }	
+		margin-left: 30%;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); } }
     @media (min-width: 530px) and (max-width: 1030px) {
       .product-head h4 {
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); } }
@@ -6208,11 +6209,11 @@ h3.slider-title {
 /* line 45, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_page-lighting-landing.scss */
 .lighting-finder {
   background: #ebebeb;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   padding: 25px;
-  width: 100%;
+  width: 103.5%;
   margin-top: 50px;
-  margin-left: -0.3%;
+  margin-left: -2.5%;
   position: relative; }
   /* line 51, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_page-lighting-landing.scss */
   .lighting-finder h3 {
@@ -6289,7 +6290,7 @@ h3.slider-title {
   width: 100%;
   height: 202px;
   text-align: center;
-  max-width: 262px; 
+  max-width: 262px;
   /*border-radius: 6px;
   border: 1px solid #ccc; */   }
   @media (min-width: 530px) and (max-width: 1030px) {
@@ -6369,7 +6370,7 @@ h3.slider-title {
     width: 100% !important;
     margin: 10px auto !important;
     float: none;
-    max-width: 350px; 
+    max-width: 350px;
 	padding: 0;} }
 
 /* line 217, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_page-lighting-landing.scss */
@@ -7254,7 +7255,7 @@ h3.slider-title {
       border-bottom-right-radius: 4px;		}
     /* line 60, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_pages.scss */
     .pagehead-social a.google-plus {
-      background: #df4a32;      
+      background: #df4a32;
 	  border-top-right-radius: 4px;
       border-bottom-right-radius: 4px;		 }
     /* line 63, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_pages.scss */
@@ -7391,26 +7392,26 @@ h3.slider-title {
     padding: 1%;
     box-sizing: border-box;
     margin-right: 0; }
-	
+
     @media (max-width: 530px) {
       .product-family-container .col_3_4 .accordion-container img {
         float: none;
         /*width: 129px;*/
         /*height: 148px;*/
         display: block;
-        margin: 15px auto; } 
+        margin: 15px auto; }
 		.product-family-container .col_3_4 .accordion-container ul{width:95% !important;}
 		}
 .accordiontableimage {
 /*      height: 46px !important;*/
-      padding: 4px 0 !important; 
+      padding: 4px 0 !important;
 	  margin-bottom: 0px !important;
 /*	  width: 100% !important;*/
 	  margin-top: 0px !important;
 	  border: 0px !important;
 	  }
 .accordiontablenonansiimage {
-      padding: 4px 0 !important; 
+      padding: 4px 0 !important;
 	  margin-bottom: 0px !important;
 	  width: 100% !important;
 	  margin-top: 0px !important;
@@ -7424,7 +7425,7 @@ h3.slider-title {
     width: 61%;
     margin: 10px 0;
     box-sizing: border-box;
-    padding-left: 6%; 
+    padding-left: 6%;
 	margin: 10px 0px 10px 0px;}
     /* line 232, C:/Users/Kevin McKernan/Dropbox/projects/MillerSmith/Energizer/Site/assets/css/_pages.scss */
 /*    .product-family-container .col_3_4 .accordion-container ul:after {
@@ -7448,7 +7449,7 @@ h3.slider-title {
     height: auto;
     margin-bottom: 40px; }
     @media (min-width: 530px) and (max-width: 1030px) {
-      .product-family-container .col_1_4 a img{ /*asad 6-3-15 added a remove img*/ 
+      .product-family-container .col_1_4 a img{ /*asad 6-3-15 added a remove img*/
         float: left; } }
     @media (max-width: 600px) {
       .product-family-container .col_1_4 a img{/*asad 6-3-15*/
@@ -7746,7 +7747,7 @@ opacity: 1;
 visibility: visible;
 }
 
-.lighting-product:hover > a {display: none;} 
+.lighting-product:hover > a {display: none;}
 .sliderimage{padding-left:15px; width: 100%;height: auto;}
     @media (max-width: 530px) {
 	.sliderimage{padding-left:0px;  margin-top:45px;}
@@ -7761,7 +7762,7 @@ visibility: visible;
     overflow: auto;
 	margin-top: 15px;
 	padding-bottom: 15px;
-	
+
 }
 .post-thumb {
     float: left
@@ -7882,12 +7883,12 @@ a.cstm-video span.play { top: 45%; left: 50%; }
 /* ===== youtube links */
 a.cstm-video
     { width:244px; display:block; float:left; font-size:9px; margin:8px 30px 12px 65px; position:relative; text-align:center; }
-	
+
 a.cstm-video img
     { width:100%; box-shadow:0 0 4px #CCCCCC; }
-#cstm-contentmain a.cstm-video img    
+#cstm-contentmain a.cstm-video img
     { margin-bottom:4px; }
-	
+
 a.cstm-video span.play
     { display:block; height:33px; width:24px; position:absolute; top:75px; left:118px; z-index:1; background:url(/images/default-source/leak-guarantee/btn-playvideo.png) no-repeat 0 0; }
 a.cstm-video:hover span.play
@@ -7895,14 +7896,14 @@ a.cstm-video:hover span.play
 .btn-more-red{width: 250px;}
 
 /* ===== linked thumbnails */
-    
+
 .cstm-mediathumbs
     { margin:0 -12px 10px 0; }
 .cstm-mediathumbs > div
     { width:210px; padding:0 10px 16px; margin:50px 25px 85px 17px; position:relative; text-align:left; vertical-align:top; }
 .cstm-mediathumbs > div,
 .cstm-mediathumbs.cstm-rptpages > .active {
-    display:inline-block; 
+    display:inline-block;
     *display:inline;  /* IE7 */
     *zoom:1;          /* IE7 */
     }
@@ -7923,7 +7924,7 @@ a.cstm-video:hover span.play
     { position:relative; top:auto; }
 .cstm-mediathumbs a.thumb em.callout  /* battery size dogear */
     { display:block; height:33px; width:64px; position:absolute; top:97px; right:0; padding:18px 4px 0 0; font:bold 10px arial; color:#666666; text-align:right; background:url(../images/products/bg-dogear.png) no-repeat 4px 0; }
-    
+
 .cstm-mediathumbs a.thumb span.hilite
     { display:none; /*border:3px solid #999999;*/ height:124px; width:224px; position:absolute; top:0; left:0; padding:0; }
 .cstm-mediathumbs a.thumb:hover
@@ -7943,9 +7944,9 @@ a.cstm-video:hover span.play
     { box-shadow:none; background:#000; max-height:none; max-width:230px; position:relative; top:-20px; margin:0; }
 .cstm-mediathumbs.cstm-lightbox a.cstm-video span.play
     { left:102px; top:48px; }
-.cstm-mediathumbs.cstm-lightbox a.thumb span.hilite    
+.cstm-mediathumbs.cstm-lightbox a.thumb span.hilite
     { background:url(../images/products/icon-magnify.png) no-repeat right bottom; }
-    
+
 .cstm-mediathumbs .products
     { margin:2px 0 0; overflow:hidden; }
 .cstm-mediathumbs .products li
@@ -7955,16 +7956,16 @@ a.cstm-video:hover span.play
 .cstm-mediathumbs .products li:first-child
     { padding-left:0; background:none; }
 .cstm-mediathumbs .products li > a:hover
-    { color:#000; } 
+    { color:#000; }
 
 /*Fix for responsive*/
-.sfImageWrapper img { max-width: 100%; } 
+.sfImageWrapper img { max-width: 100%; }
 
 @media (max-width: 1030px) and (min-width: 600px)
-{ .product-family-container .col_1_4 a img:nth-of-type(2n + 2) 
-{ float: right; } } 
+{ .product-family-container .col_1_4 a img:nth-of-type(2n + 2)
+{ float: right; } }
 @media (max-width: 1030px) and (min-width: 530px)
-{ .logo { width: 170px; margin-left: 10px; } }	
+{ .logo { width: 170px; margin-left: 10px; } }
 
 	.pagebottom .sfImageWrapper img {width:100%;}
 }
@@ -8130,7 +8131,7 @@ a.cstm-video:hover span.play
 .eco-advanced-container .eco-intro .section-wrap .update-video img{
 max-width: 95%;
 }
-/*End request 3/16/15*/	
+/*End request 3/16/15*/
 /*Request for dropdown menu 3/31/15*/
 .nav-contain .responsibility .subnav {
 	min-height: 0 !important;
@@ -8163,7 +8164,7 @@ max-width: 95%;
 .hide-video {
     display: none;
 }
-/*End request 3/18/15*/	  
+/*End request 3/18/15*/
     .eco-advanced-container .eco-intro .section-wrap .section-text {
       padding-left: 65px;
       vertical-align: top; }
@@ -8213,8 +8214,8 @@ max-width: 95%;
         .eco-advanced-container .eco-intro .cupon img {
           right: -70px;
           top: -10%;
-          max-width: 35%; } 
-		.eco-advanced-container .sf_2cols_1_75{    
+          max-width: 35%; }
+		.eco-advanced-container .sf_2cols_1_75{
 		float: none;
 		margin-right:0;
 		width:auto;
@@ -8485,7 +8486,7 @@ line-height: 1.5;
 border-radius: 1em;
 text-shadow: rgba(255, 255, 255, 0.8) 1px 1px 1px;
 }
-/*End pagination*/	
+/*End pagination*/
 .specialbannerimage {
   text-align: center;
 }
@@ -8604,7 +8605,7 @@ text-shadow: rgba(255, 255, 255, 0.8) 1px 1px 1px;
     		width: 100%;
     	}
     }
-/*End site map */		
+/*End site map */
 /* This fixes the clickable last item issue */
 .mean-container .mean-nav ul > li.power-last > a.mean-expand{
 	width: auto;
