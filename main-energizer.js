@@ -24,7 +24,16 @@ $(document).ready(function() {
             "data-videoID": t
         })
     }),
-    $(".accordion-container").find(".accordion-toggle").click(function() {
+    // $(".accordion-container").find(".accordion-toggle").click(function() {
+    //     $(this).hasClass("active") || ($(".accordion-toggle").removeClass("active"),
+    //     $("div").remove("#afshcontainer"),
+    //     $("select").val("NA"),
+    //     $(this).next().find("select option:nth-child(2)").attr("selected", "selected").change(),
+    //     $(this).next().slideToggle("fast"),
+    //     $(this).addClass("active"),
+    //     $(".accordion-content").not($(this).next()).slideUp("fast"))
+    // }),
+    $('.accordion-container').on('click', function(){
         $(this).hasClass("active") || ($(".accordion-toggle").removeClass("active"),
         $("div").remove("#afshcontainer"),
         $("select").val("NA"),
@@ -32,7 +41,7 @@ $(document).ready(function() {
         $(this).next().slideToggle("fast"),
         $(this).addClass("active"),
         $(".accordion-content").not($(this).next()).slideUp("fast"))
-    }),
+      }),
     e.prototype = {
         initEvents: function() {
             var e = this;
