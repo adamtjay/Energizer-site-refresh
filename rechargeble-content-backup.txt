@@ -1,0 +1,544 @@
+COMMENTS REMOVED VERSION:
+
+<div class="energizer_recharge">
+<div>
+<div class="power1">
+<div class="brand-logo"><img alt="energizer recharge power plus" class="power_desktop" src="/images/default-source/rechargeable-batteries/icon8.png" /> <img alt="energizer recharge universal mobile" class="power_mobile" src="/images/default-source/rechargeable-batteries/resp_4x_energizer.png" /></div>
+<ul class="ener_list1">
+    <li>
+    <div class="ener_image inner-height">
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_battery_col"><img alt="aa battery" src="/images/default-source/rechargeable-batteries/AA_img.png" /></div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_battery_col"><img alt="aaa battery" src="/images/default-source/rechargeable-batteries/AAA_img.png" /></div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="charge capacity" src="/images/default-source/rechargeable-batteries/icon1.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p>2300<span class="only-one">mAh</span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p>800<span class="only-one">mAh</span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="charge cycles" src="/images/default-source/rechargeable-batteries/icon2.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>up to</span>500<span>times</span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>up to</span>700<span>times</span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="charge retention" src="/images/default-source/rechargeable-batteries/icon3.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>12<span>months</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>12<span>months</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="digital cameras" src="/images/default-source/rechargeable-batteries/icon4.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>350<span>photos per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>130<span>photos per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="toys" src="/images/default-source/rechargeable-batteries/icon5.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>380<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>170<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="handheld games" src="/images/default-source/rechargeable-batteries/icon6.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>480<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    </div>
+    </div>
+    </div>
+    </li>
+</ul>
+</div>
+<div class="power2">
+<div class="brand-logo"><img alt="energizer recharge universal" class="power_desktop" src="/images/default-source/rechargeable-batteries/icon9.png" /> <img alt="energizer recharge power plus mobile" class="power_mobile" src="/images/default-source/rechargeable-batteries/resp_3x.png" /></div>
+<ul class="ener_list2">
+    <li>
+    <div class="ener_image inner-height">
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_battery_col"><img alt="aa battery" src="/images/default-source/rechargeable-batteries/AA_img.png" /></div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_battery_col"><img alt="aaa battery" src="/images/default-source/rechargeable-batteries/AAA_img.png" /></div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="charge capacity" src="/images/default-source/rechargeable-batteries/icon1.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p>2000<span class="only-one">mAh</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p>700<span class="only-one">mAh</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="charge cycles" src="/images/default-source/rechargeable-batteries/icon2.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>up to</span>1000<span>times</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>up to</span>1000<span>times</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="charge retention" src="/images/default-source/rechargeable-batteries/icon3.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>12<span>months</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>12<span>months</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="digital cameras" src="/images/default-source/rechargeable-batteries/icon4.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>165<span>photos per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>120<span>photos per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="toys" src="/images/default-source/rechargeable-batteries/icon5.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>330<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>155<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="handheld games" src="/images/default-source/rechargeable-batteries/icon6.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>500<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    </div>
+    </div>
+    </div>
+    </li>
+</ul>
+</div>
+<div class="battery-info cf">
+<p><span class="battery-para" itemtype="1">Capacity is measured in Milliamp Hours (mAh) &ndash; the higher the capacity, the longer the device will run. </span></p>
+<p><span class="battery-para" itemtype="2">The number of times a battery can be charged. </span></p>
+<p><span class="battery-para" itemtype="3">How long they hold their charge when not in use. </span></p>
+<p><span class="battery-para" itemtype="4">Results vary by camera and usage.</span></p>
+<p><span class="battery-para" itemtype="5">Per one full charge. Results vary by type of device for AA/AAA battery. </span></p>
+<p><span class="battery-para" itemtype="*">In digital cameras vs. Energizer MAX<sup>&reg;</sup> AA batteries, results vary by device (AA only).</span></p>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+ORIG VERSION:
+
+<div class="energizer_recharge">
+<div>
+<!-- power1 section starts here -->
+<div class="power1">
+<!-- logo of energizer -->
+<div class="brand-logo"><img alt="energizer recharge power plus" class="power_desktop" src="/images/default-source/rechargeable-batteries/icon8.png" /> <img alt="energizer recharge universal mobile" class="power_mobile" src="/images/default-source/rechargeable-batteries/resp_4x_energizer.png" /></div>
+<ul class="ener_list1">
+    <li>
+    <div class="ener_image inner-height">
+    <!--<img alt="charge capacity" src="/images/default-source/rechargeable-batteries/icon1.png">-->
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_battery_col"><img alt="aa battery" src="/images/default-source/rechargeable-batteries/AA_img.png" /></div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_battery_col"><img alt="aaa battery" src="/images/default-source/rechargeable-batteries/AAA_img.png" /></div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="charge capacity" src="/images/default-source/rechargeable-batteries/icon1.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p>2300<span class="only-one">mAh</span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p>800<span class="only-one">mAh</span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="charge cycles" src="/images/default-source/rechargeable-batteries/icon2.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>up to</span>500<span>times</span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>up to</span>700<span>times</span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="charge retention" src="/images/default-source/rechargeable-batteries/icon3.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>12<span>months</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>12<span>months</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="digital cameras" src="/images/default-source/rechargeable-batteries/icon4.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>350<span>photos per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>130<span>photos per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="toys" src="/images/default-source/rechargeable-batteries/icon5.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>380<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>170<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image inner-height"><img alt="handheld games" src="/images/default-source/rechargeable-batteries/icon6.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>480<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <!--<p><span>lasts up to</span>480<span>minutes per</span><span class="per_charge_4">charge</span></p>-->
+    </div>
+    </div>
+    </div>
+    </li>
+</ul>
+</div>
+<!-- poer1 section ends here -->
+<!-- power2 section starts here -->
+<div class="power2">
+<!-- logo for energizer 3x starts here -->
+<div class="brand-logo"><img alt="energizer recharge universal" class="power_desktop" src="/images/default-source/rechargeable-batteries/icon9.png" /> <img alt="energizer recharge power plus mobile" class="power_mobile" src="/images/default-source/rechargeable-batteries/resp_3x.png" /></div>
+<ul class="ener_list2">
+    <li>
+    <div class="ener_image inner-height">
+    <!--<img alt="charge capacity" src="/images/default-source/rechargeable-batteries/icon1.png">-->
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_battery_col"><img alt="aa battery" src="/images/default-source/rechargeable-batteries/AA_img.png" /></div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_battery_col"><img alt="aaa battery" src="/images/default-source/rechargeable-batteries/AAA_img.png" /></div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="charge capacity" src="/images/default-source/rechargeable-batteries/icon1.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p>2000<span class="only-one">mAh</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p>700<span class="only-one">mAh</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="charge cycles" src="/images/default-source/rechargeable-batteries/icon2.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>up to</span>1000<span>times</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>up to</span>1000<span>times</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="charge retention" src="/images/default-source/rechargeable-batteries/icon3.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>12<span>months</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>12<span>months</span></p>
+    </div>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="digital cameras" src="/images/default-source/rechargeable-batteries/icon4.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>165<span>photos per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>120<span>photos per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="toys" src="/images/default-source/rechargeable-batteries/icon5.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>330<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>155<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <div class="ener_image"><img alt="handheld games" src="/images/default-source/rechargeable-batteries/icon6.png" /></div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <p><span>lasts up to</span>500<span>minutes per</span><span class="per_charge_4">charge<sup>4</sup></span></p>
+    </div>
+    </div>
+    </div>
+    <div class="content_wrap">
+    <div class="ener_content">
+    <div class="ener_content__power">
+    <!--<p><span>lasts up to</span>500<span>minutes per</span><span class="per_charge_4">charge</span></p>-->
+    </div>
+    </div>
+    </div>
+    </li>
+</ul>
+</div>
+<!-- poer2 section ends here -->
+<!-- battery info starts here -->
+<div class="battery-info cf">
+<p><span class="battery-para" itemtype="1">Capacity is measured in Milliamp Hours (mAh) &ndash; the higher the capacity, the longer the device will run. </span></p>
+<p><span class="battery-para" itemtype="2">The number of times a battery can be charged. </span></p>
+<p><span class="battery-para" itemtype="3">How long they hold their charge when not in use. </span></p>
+<p><span class="battery-para" itemtype="4">Results vary by camera and usage.</span></p>
+<p><span class="battery-para" itemtype="5">Per one full charge. Results vary by type of device for AA/AAA battery. </span></p>
+<p><span class="battery-para" itemtype="*">In digital cameras vs. Energizer MAX<sup>&reg;</sup> AA batteries, results vary by device (AA only).</span></p>
+</div>
+<!-- battery info ends here -->
+</div>
+</div>
